@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "mode": "figures",
+  "elapsed_seconds": 2.725910399996792,
+  "python": "3.13.9",
+  "checks": [
+    {
+      "check": "publication rounded MAE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication rounded RMSE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication rounded DMAE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication rounded DRMSE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication counts F1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication counts F2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication counts F3-PD",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication counts F3-W",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication counts F3-any",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication counts F3-both",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "publication counts F4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure 8 renders from existing predictions",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "new_model_experiment": false
+}

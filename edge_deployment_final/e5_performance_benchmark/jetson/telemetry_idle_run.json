@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "platform_kind": "jetson",
+  "phase": "idle",
+  "requested_duration_seconds": 60.0,
+  "observed_duration_seconds": 60.06305483200049,
+  "sampler_command": [
+    "/usr/bin/tegrastats",
+    "--interval",
+    "1000"
+  ],
+  "iterations_completed": 0,
+  "batch_size": null,
+  "precision": null,
+  "output_shape": null,
+  "nan_count": 0,
+  "inf_count": 0,
+  "checkpoint_sha256": null,
+  "model_audit": null
+}

@@ -1,0 +1,82 @@
+PASS | all Python files parse
+PASS clean series passes
+PASS six budgets emitted
+PASS expected adaptation sample counts
+PASS 28 daily windows
+PASS 672 shared target hours
+PASS zero adaptation/test overlap
+PASS X/y continuity
+PASS frozen range is 57 days
+PASS test starts after 24h history and 28d adaptation
+PASS under-90d run fails
+PASS under-90d reason recorded
+PASS earliest run wins ties
+SUMMARY 12/12 PASS
+PASS | test_final_v1_gate1_synthetic.py
+PASS Gate1 synthetic source passes
+PASS daily X/y shapes
+PASS previous-day alignment
+PASS weekly shape
+PASS weekly alignment
+PASS 1d adaptation shape
+PASS 3d adaptation shape
+PASS 7d adaptation shape
+PASS 14d adaptation shape
+PASS 28d adaptation shape
+PASS prediction serialization rows
+PASS prediction target uniqueness
+PASS forecast origins
+PASS horizons
+PASS all predictions available
+SUMMARY 15/15 PASS
+PASS | test_final_v1_gate2_synthetic.py
+PASS efficiency grid
+PASS 0d delta zero
+PASS 1d worsens
+PASS 28d improves
+PASS F1 detected at 1d
+PASS F1 absent at 28d
+PASS failure summary has all budgets
+PASS H1 effect negative
+PASS H1 small-site status
+PASS H2 effect negative
+PASS H3 table complete
+PASS full six-budget curve
+PASS bootstrap deterministic
+PASS zero ratio
+PASS daily repeatability
+SUMMARY 15/15 PASS
+PASS | test_final_v1_gate3_synthetic.py
+PASS | C0 shape and power-lag normalization
+PASS | target calendar begins at target midnight
+PASS | historical optimizer/batch configuration
+PASS | mean MSE/head-only implementation retained
+PASS | actual quality auditor on 49-row fixture
+PASS | saved Figure 8 6720 rows / 10 keys
+PASS | no duplicated case prediction keys
+PASS | finite saved values
+PASS | case ('Eagle_education_Brooke', 20260924, 0)
+PASS | case ('Eagle_education_Brooke', 20260924, 14)
+PASS | case ('Eagle_education_Brooke', 20260925, 0)
+PASS | case ('Eagle_education_Brooke', 20260925, 14)
+PASS | case ('Eagle_education_Brooke', 20260926, 0)
+PASS | case ('Eagle_education_Brooke', 20260926, 14)
+PASS | case ('Hog_office_Gustavo', 20260926, 0)
+PASS | case ('Hog_office_Gustavo', 20260926, 1)
+PASS | case ('Hog_office_Roger', 20260926, 0)
+PASS | case ('Hog_office_Roger', 20260926, 1)
+PASS | saved Figure 8 metric recomputation | max difference 5.68e-14
+PASS | Figure 8 source/adapted target keys and observations identical
+PASS | all F1-F4 saved counts reproduced
+PASS | all six site-equal adaptation results | max difference 0
+PASS | H1/H2/H3 saved effects and CIs
+PASS | 453 buildings / 7 sites
+PASS | documented final missingness discrepancy
+PASS | 350 exploratory association records match
+PASS | saved E4 normalized
+PASS | saved E4 physical
+PASS | saved 5000 latency values jetson/model_only | {'maximum_absolute_statistic_difference': 0.0, 'tolerance': 1e-12, 'pass': True}
+PASS | saved 5000 latency values jetson/end_to_end | {'maximum_absolute_statistic_difference': 0.0, 'tolerance': 1e-12, 'pass': True}
+PASS | saved 5000 latency values rtx3080/model_only | {'maximum_absolute_statistic_difference': 0.0, 'tolerance': 1e-12, 'pass': True}
+PASS | saved 5000 latency values rtx3080/end_to_end | {'maximum_absolute_statistic_difference': 0.0, 'tolerance': 1e-12, 'pass': True}
+NO TRAINING, ADAPTATION, CHECKPOINT LOADING OR MODEL INFERENCE EXECUTED

@@ -1,0 +1,192 @@
+{
+  "status": "PASS",
+  "device": "NVIDIA GeForce RTX 3080",
+  "runtime": "PyTorch 2.11.0+cu128, CUDA 12.8",
+  "precision": "FP32",
+  "batch_size": 1,
+  "parameters": 5912,
+  "input_shape": [
+    1,
+    24,
+    6
+  ],
+  "output_shape": [
+    1,
+    24
+  ],
+  "warmup_per_mode": 200,
+  "runs": 5,
+  "inferences_per_run": 1000,
+  "stabilization_seconds_between_runs": 1.0,
+  "outliers_removed": false,
+  "model_only_timing": "CUDA events; input already on CUDA; output retained on CUDA",
+  "end_to_end_timing": "perf_counter_ns; CPU RAM to CUDA, forward, output to CPU, CUDA synchronization",
+  "model_only": {
+    "overall": {
+      "count": 5000,
+      "mean_ms": 0.2052263622030616,
+      "std_ms": 0.12119574761422842,
+      "median_ms": 0.17107200622558594,
+      "p90_ms": 0.24390719532966615,
+      "p95_ms": 0.35435358583927173,
+      "p99_ms": 0.8856649464368821,
+      "minimum_ms": 0.06860800087451935,
+      "maximum_ms": 1.3035520315170288
+    },
+    "by_run": [
+      {
+        "run_id": 1,
+        "count": 1000,
+        "mean_ms": 0.20178070455044508,
+        "std_ms": 0.10508420758679057,
+        "median_ms": 0.17203199863433838,
+        "p90_ms": 0.23748159855604173,
+        "p95_ms": 0.3364271953701968,
+        "p99_ms": 0.6926336252689358,
+        "minimum_ms": 0.06963200122117996,
+        "maximum_ms": 1.2431360483169556
+      },
+      {
+        "run_id": 2,
+        "count": 1000,
+        "mean_ms": 0.21213296040147542,
+        "std_ms": 0.11791860344854044,
+        "median_ms": 0.17401599884033203,
+        "p90_ms": 0.27755838930606846,
+        "p95_ms": 0.3924480050802229,
+        "p99_ms": 0.844920955300331,
+        "minimum_ms": 0.07065600156784058,
+        "maximum_ms": 1.3035520315170288
+      },
+      {
+        "run_id": 3,
+        "count": 1000,
+        "mean_ms": 0.20624896074086427,
+        "std_ms": 0.13069442220695723,
+        "median_ms": 0.17203199863433838,
+        "p90_ms": 0.235523197054863,
+        "p95_ms": 0.32947839349508234,
+        "p99_ms": 0.9166745644807813,
+        "minimum_ms": 0.06860800087451935,
+        "maximum_ms": 1.2431360483169556
+      },
+      {
+        "run_id": 4,
+        "count": 1000,
+        "mean_ms": 0.20174563257396222,
+        "std_ms": 0.1296793098880055,
+        "median_ms": 0.16998399794101715,
+        "p90_ms": 0.22027839273214342,
+        "p95_ms": 0.33012960702180827,
+        "p99_ms": 0.9731164890527723,
+        "minimum_ms": 0.07168000191450119,
+        "maximum_ms": 1.2274880409240723
+      },
+      {
+        "run_id": 5,
+        "count": 1000,
+        "mean_ms": 0.2042235527485609,
+        "std_ms": 0.12051166996505104,
+        "median_ms": 0.17022400349378586,
+        "p90_ms": 0.24583359509706498,
+        "p95_ms": 0.3298320069909095,
+        "p99_ms": 0.8613468730449675,
+        "minimum_ms": 0.07168000191450119,
+        "maximum_ms": 1.222656011581421
+      }
+    ]
+  },
+  "end_to_end": {
+    "overall": {
+      "count": 5000,
+      "mean_ms": 0.3373797,
+      "std_ms": 0.37480787895388484,
+      "median_ms": 0.2326,
+      "p90_ms": 0.37761,
+      "p95_ms": 0.9128300000000011,
+      "p99_ms": 2.37343800000001,
+      "minimum_ms": 0.2183,
+      "maximum_ms": 4.413
+    },
+    "by_run": [
+      {
+        "run_id": 1,
+        "count": 1000,
+        "mean_ms": 0.27317089999999994,
+        "std_ms": 0.1529602430803181,
+        "median_ms": 0.2238,
+        "p90_ms": 0.33142,
+        "p95_ms": 0.5722199999999997,
+        "p99_ms": 1.020718,
+        "minimum_ms": 0.2183,
+        "maximum_ms": 1.3516
+      },
+      {
+        "run_id": 2,
+        "count": 1000,
+        "mean_ms": 0.4003156,
+        "std_ms": 0.4892127409385819,
+        "median_ms": 0.23645,
+        "p90_ms": 0.61365,
+        "p95_ms": 1.4478399999999998,
+        "p99_ms": 2.680274,
+        "minimum_ms": 0.2207,
+        "maximum_ms": 3.4175
+      },
+      {
+        "run_id": 3,
+        "count": 1000,
+        "mean_ms": 0.3068942,
+        "std_ms": 0.2496647384120553,
+        "median_ms": 0.23235,
+        "p90_ms": 0.34361,
+        "p95_ms": 0.7419099999999987,
+        "p99_ms": 1.6297869999999999,
+        "minimum_ms": 0.2201,
+        "maximum_ms": 1.8986
+      },
+      {
+        "run_id": 4,
+        "count": 1000,
+        "mean_ms": 0.3862278,
+        "std_ms": 0.5395215331079566,
+        "median_ms": 0.2337,
+        "p90_ms": 0.38265,
+        "p95_ms": 1.56483,
+        "p99_ms": 3.2454110000000003,
+        "minimum_ms": 0.2209,
+        "maximum_ms": 4.413
+      },
+      {
+        "run_id": 5,
+        "count": 1000,
+        "mean_ms": 0.32028999999999996,
+        "std_ms": 0.27307794590556006,
+        "median_ms": 0.2344,
+        "p90_ms": 0.36765,
+        "p95_ms": 0.8535849999999999,
+        "p99_ms": 1.794797,
+        "minimum_ms": 0.2236,
+        "maximum_ms": 1.9847
+      }
+    ]
+  },
+  "checkpoint_sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b",
+  "model_audit": {
+    "checkpoint_sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b",
+    "strict_state_dict_load": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "parameter_count": 5912,
+    "parameter_dtypes": [
+      "torch.float32"
+    ],
+    "input_dimension": 6,
+    "sequence_length": 24,
+    "output_horizon": 24,
+    "model_training_mode": false,
+    "model_modified": false
+  },
+  "nan_count": 0,
+  "inf_count": 0
+}

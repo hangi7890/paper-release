@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="Figure_7" name="Figure_7">
+    <mxGraphModel page="1" pageWidth="1000" pageHeight="950.0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="(a) Transfer and numerical-consistency validation" style="text;html=1;align=left;verticalAlign=top;fontSize=19.4446;fontFamily=Arial;fontColor=#202020;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="15" width="940" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Frozen source-only checkpoint&lt;br&gt;Seed 20260924 / 5,912 parameters" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072B2;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=13.889;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Integrity and runtime checks&lt;br&gt;Weights, shapes, FP32, eval mode" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072B2;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=13.889;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Jetson CUDA validation&lt;br&gt;64 vectors / 1,536 outputs" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072B2;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=13.889;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="700" y="70" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="endArrow=classic;endFill=1;html=1;strokeWidth=1;strokeColor=#6A6A6A;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="110" as="sourcePoint" />
+            <mxPoint x="360" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" style="endArrow=classic;endFill=1;html=1;strokeWidth=1;strokeColor=#6A6A6A;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="110" as="sourcePoint" />
+            <mxPoint x="700" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Predefined consistency criteria: PASS&lt;br&gt;Maximum absolute difference: 1.4782 × 10^-5 normalized / 0.00524 original scale" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#EAF4F0;strokeColor=#009E73;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=15.2779;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="90" y="180" width="820" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="(b) Latency measurement boundaries" style="text;html=1;align=left;verticalAlign=top;fontSize=19.4446;fontFamily=Arial;fontColor=#202020;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="940" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Model-only" style="text;html=1;align=left;verticalAlign=top;fontSize=15.2779;fontFamily=Arial;fontColor=#202020;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="344" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="GPU-resident input" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072B2;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=15.2779;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="230" y="329" width="195" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Model forward" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072B2;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=15.2779;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="475" y="329" width="195" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="GPU-resident output" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072B2;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=15.2779;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="720" y="329" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="endArrow=classic;endFill=1;html=1;strokeWidth=1;strokeColor=#6A6A6A;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="356" as="sourcePoint" />
+            <mxPoint x="475" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" style="endArrow=classic;endFill=1;html=1;strokeWidth=1;strokeColor=#6A6A6A;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="356" as="sourcePoint" />
+            <mxPoint x="720" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Deployment&lt;br&gt;end-to-end" style="text;html=1;align=left;verticalAlign=top;fontSize=15.2779;fontFamily=Arial;fontColor=#202020;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="428" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="CPU → GPU" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072B2;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=15.2779;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="230" y="417" width="195" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Model forward" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072B2;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=15.2779;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="475" y="417" width="195" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="GPU → CPU" style="rounded=0;shadow=0;glass=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0072B2;strokeWidth=1;fontColor=#202020;fontFamily=Arial;fontSize=15.2779;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="720" y="417" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="endArrow=classic;endFill=1;html=1;strokeWidth=1;strokeColor=#6A6A6A;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="445" as="sourcePoint" />
+            <mxPoint x="475" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" style="endArrow=classic;endFill=1;html=1;strokeWidth=1;strokeColor=#6A6A6A;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="445" as="sourcePoint" />
+            <mxPoint x="720" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Excluded: disk I/O, Python startup, checkpoint loading" style="text;html=1;align=left;verticalAlign=top;fontSize=13.889;fontFamily=Arial;fontColor=#6A6A6A;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="494" width="720" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="(c) Batch-1 FP32 latency summaries" style="text;html=1;align=left;verticalAlign=top;fontSize=19.4446;fontFamily=Arial;fontColor=#202020;fontStyle=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="548" width="940" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="Median ●     P95 │" style="text;html=1;align=left;verticalAlign=top;fontSize=15.2779;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="590" width="500" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Jetson Orin Nano / Model-only" style="text;html=1;align=left;verticalAlign=top;fontSize=13.889;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="640" width="310" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="26" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#E4E9EC;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="650" as="sourcePoint" />
+            <mxPoint x="895" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#0072B2;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="682.7760000000001" y="650" as="sourcePoint" />
+            <mxPoint x="710.569" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="" style="ellipse;fillColor=#0072B2;strokeColor=#0072B2;" vertex="1" parent="1">
+          <mxGeometry x="678.7760000000001" y="646" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="29" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#0072B2;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710.569" y="642" as="sourcePoint" />
+            <mxPoint x="710.569" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="0.676&lt;br&gt;0.731" style="text;html=1;align=left;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="905" y="640" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="RTX 3080 / Model-only" style="text;html=1;align=left;verticalAlign=top;fontSize=13.889;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="692" width="310" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="32" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#E4E9EC;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="702" as="sourcePoint" />
+            <mxPoint x="895" y="702" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#D55E00;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430.536" y="702" as="sourcePoint" />
+            <mxPoint x="522.177" y="702" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="" style="ellipse;fillColor=#D55E00;strokeColor=#D55E00;" vertex="1" parent="1">
+          <mxGeometry x="426.536" y="698" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="35" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#D55E00;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="522.177" y="694" as="sourcePoint" />
+            <mxPoint x="522.177" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="0.171&lt;br&gt;0.354" style="text;html=1;align=left;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="905" y="692" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="Jetson Orin Nano / End-to-end" style="text;html=1;align=left;verticalAlign=top;fontSize=13.889;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="744" width="310" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="38" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#E4E9EC;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="754" as="sourcePoint" />
+            <mxPoint x="895" y="754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#0072B2;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="786.5409999999999" y="754" as="sourcePoint" />
+            <mxPoint x="813.6265" y="754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40" value="" style="ellipse;fillColor=#0072B2;strokeColor=#0072B2;" vertex="1" parent="1">
+          <mxGeometry x="782.5409999999999" y="750" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="41" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#0072B2;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="813.6265" y="746" as="sourcePoint" />
+            <mxPoint x="813.6265" y="762" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42" value="0.883&lt;br&gt;0.937" style="text;html=1;align=left;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="905" y="744" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="RTX 3080 / End-to-end" style="text;html=1;align=left;verticalAlign=top;fontSize=13.889;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="796" width="310" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="44" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#E4E9EC;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="806" as="sourcePoint" />
+            <mxPoint x="895" y="806" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#D55E00;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="461.3" y="806" as="sourcePoint" />
+            <mxPoint x="801.415" y="806" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46" value="" style="ellipse;fillColor=#D55E00;strokeColor=#D55E00;" vertex="1" parent="1">
+          <mxGeometry x="457.3" y="802" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="47" style="endArrow=none;endFill=1;html=1;strokeWidth=1;strokeColor=#D55E00;dashed=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="801.415" y="798" as="sourcePoint" />
+            <mxPoint x="801.415" y="814" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48" value="0.233&lt;br&gt;0.913" style="text;html=1;align=left;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="905" y="796" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="0.0" style="text;html=1;align=center;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325.0" y="837" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="0.2" style="text;html=1;align=center;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="425.0" y="837" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="0.4" style="text;html=1;align=center;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="525.0" y="837" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="0.6" style="text;html=1;align=center;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="625.0" y="837" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="0.8" style="text;html=1;align=center;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="725.0" y="837" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="54" value="1.0" style="text;html=1;align=center;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="825.0" y="837" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="55" value="Latency (ms)" style="text;html=1;align=center;verticalAlign=top;fontSize=13.889;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440.0" y="865" width="250" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="56" value="5,000 observations per mode and device; no outlier removal. Median and P95 are not a full distribution." style="text;html=1;align=left;verticalAlign=top;fontSize=12.5001;fontFamily=Arial;fontColor=#202020;fontStyle=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="900" width="945" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "device": "cuda",
+  "device_name": "Orin",
+  "precision": "FP32",
+  "batch_size": 1,
+  "input_shape": [
+    1,
+    24,
+    6
+  ],
+  "output_shape": [
+    1,
+    24
+  ],
+  "model_audit": {
+    "checkpoint_sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b",
+    "strict_state_dict_load": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "parameter_count": 5912,
+    "parameter_dtypes": [
+      "torch.float32"
+    ],
+    "input_dimension": 6,
+    "sequence_length": 24,
+    "output_horizon": 24,
+    "model_training_mode": false,
+    "model_modified": false
+  },
+  "checkpoint_path": "/home/USER/research/edge_deployment/e4_runtime/edge_deployment_jetson_fp32/model/bdg2_stage6_c0_lstm_seed_20260924_v3.pt",
+  "checkpoint_sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b",
+  "normalized": {
+    "shape_match": true,
+    "shape": [
+      1,
+      24
+    ],
+    "candidate_dtype": "float32",
+    "candidate_nan_count": 0,
+    "candidate_inf_count": 0,
+    "max_absolute_difference": 1.2814998626708984e-06,
+    "mean_absolute_difference": 6.916622320810953e-07,
+    "rmse_difference": 7.867803703047205e-07
+  },
+  "physical": {
+    "shape_match": true,
+    "shape": [
+      1,
+      24
+    ],
+    "candidate_dtype": "float64",
+    "candidate_nan_count": 0,
+    "candidate_inf_count": 0,
+    "max_absolute_difference": 0.0004540721413945903,
+    "mean_absolute_difference": 0.00024507575848590574,
+    "rmse_difference": 0.0002787788418554443
+  },
+  "criteria": {
+    "normalized_max_abs_diff_lte": 0.0001,
+    "normalized_mean_abs_diff_lte": 2e-05,
+    "physical_max_abs_diff_lte": 0.05,
+    "physical_mean_abs_diff_lte": 0.01
+  },
+  "checks": {
+    "shape_exact": true,
+    "nan_zero": true,
+    "inf_zero": true,
+    "normalized_max": true,
+    "normalized_mean": true,
+    "physical_max": true,
+    "physical_mean": true,
+    "model_eval": true,
+    "no_grad": true
+  },
+  "autocast_used": false,
+  "fp16_used": false,
+  "onnx_used": false,
+  "tensorrt_used": false,
+  "torch_compile_used": false
+}

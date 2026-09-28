@@ -1,0 +1,4 @@
+﻿Hypothesis,Prespecified estimand,Estimate,95% CI,Interpretation
+H1 Primary,ΔMAE at 28 d relative to source-only,−16.4829,"[−30.9076, −6.5630]",Supported under the prespecified criterion
+H2 Secondary,F1 rate(28 d) − F1 rate(1 d),−55.15 pp,"[−67.96, −45.52] pp",Lower frequency of adaptation-induced MAE degradation
+H3 Secondary,Rate(A) − rate(B) at 28 d,+67.99 pp,"[+58.36, +78.35] pp",Source-only improvement more frequent than beating both baselines

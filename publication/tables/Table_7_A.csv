@@ -1,0 +1,9 @@
+﻿Category,Verification,Result,Status
+Cohort freeze,Final cohort after predefined quality screening,453 buildings / 7 sites,PASS
+Quality-gate traceability,Exclusions from the 510-building proposal,57; continuous zero runs ≥30 d,PASS
+Structural integrity,Buildings passing the structural gate,453/453; 0 integrity failures,PASS
+Substitution control,Replacement buildings or alternative test periods after the structural gate,None,PASS
+Adaptation/test separation,Overlap of adaptation and evaluation target timestamps,0 h,PASS
+Common evaluation truth,"Forecast origin, target timestamp, horizon, and observed truth across models, budgets, and seeds",Identical building-level digest,PASS
+Normalization integrity,Source normalization statistics versus frozen values,Match,PASS
+Checkpoint integrity,Three source checkpoint hashes versus frozen values,Match,PASS

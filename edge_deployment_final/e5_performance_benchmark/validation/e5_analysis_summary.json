@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "pre_benchmark_consistency": "PASS",
+  "post_benchmark_consistency": "PASS",
+  "latency_independent_recalculation": "PASS",
+  "raw_latency_observations": {
+    "jetson_model_only": 5000,
+    "jetson_end_to_end": 5000,
+    "rtx_model_only": 5000,
+    "rtx_end_to_end": 5000
+  },
+  "jetson_to_rtx_mean_latency_ratio": {
+    "model_only": 3.365000178387298,
+    "end_to_end": 2.765301049826057
+  },
+  "telemetry_samples": {
+    "jetson": {
+      "idle": 59,
+      "active": 59,
+      "cooldown": 59
+    },
+    "rtx3080": {
+      "idle": 60,
+      "active": 60,
+      "cooldown": 60
+    }
+  },
+  "sustained_iterations": {
+    "jetson": 91022,
+    "rtx3080": 214724
+  },
+  "nan_count": 0,
+  "inf_count": 0,
+  "thermal_or_throttling_warning_text_count": {
+    "jetson": 0,
+    "rtx3080": 0
+  },
+  "cuda_memory": {
+    "jetson": {
+      "device": "Orin",
+      "cuda_memory_allocated_bytes": 9596928,
+      "cuda_memory_reserved_bytes": 23068672,
+      "cuda_max_memory_allocated_bytes": 18076672,
+      "cuda_max_memory_reserved_bytes": 23068672,
+      "rss_current_bytes": 585945088,
+      "rss_peak_bytes": 585945088
+    },
+    "rtx3080": {
+      "device": "NVIDIA GeForce RTX 3080",
+      "cuda_memory_allocated_bytes": 9596928,
+      "cuda_memory_reserved_bytes": 23068672,
+      "cuda_max_memory_allocated_bytes": 18076672,
+      "cuda_max_memory_reserved_bytes": 23068672,
+      "rss_current_bytes": null,
+      "rss_peak_bytes": null
+    }
+  },
+  "unresolved_issues": [
+    "RTX process RSS/peak RSS are null in the executed benchmark because the Windows API collector lacked explicit ctypes signatures.",
+    "jetson_clocks --show requires root on this image, so its state was not verified; it was not enabled or changed.",
+    "RTX WDDM desktop C+G contexts remained active and are a documented environmental limitation."
+  ],
+  "cross_device_power_ratio_calculated": false
+}

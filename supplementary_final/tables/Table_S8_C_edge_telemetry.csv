@@ -1,0 +1,7 @@
+device,phase,measurement_source,measurement_domain,sample_count,power_mean_w,power_median_w,power_min_w,power_max_w,gpu_temperature_mean_c,gpu_temperature_median_c,gpu_temperature_min_c,gpu_temperature_max_c
+Jetson Orin Nano,idle,tegrastats VDD_IN; device-reported input rail,Jetson VDD_IN rail; not assumed equivalent to RTX GPU board power,59,3.1463389830508484,3.149,3.109,3.23,49.80213559322034,49.75,49.625,50.031
+Jetson Orin Nano,active,tegrastats VDD_IN; device-reported input rail,Jetson VDD_IN rail; not assumed equivalent to RTX GPU board power,59,4.030610169491526,4.032,3.991,4.032,50.32905084745762,50.343,49.781,50.843
+Jetson Orin Nano,cooldown,tegrastats VDD_IN; device-reported input rail,Jetson VDD_IN rail; not assumed equivalent to RTX GPU board power,59,3.1503728813559326,3.149,3.149,3.23,50.45664406779661,50.437,50.156,50.75
+NVIDIA GeForce RTX 3080,idle,nvidia-smi power.draw; GPU-reported board power,RTX GPU board power; not assumed equivalent to Jetson VDD_IN,60,63.372666666666674,53.465,51.93,121.67,60.93333333333333,61.0,60.0,63.0
+NVIDIA GeForce RTX 3080,active,nvidia-smi power.draw; GPU-reported board power,RTX GPU board power; not assumed equivalent to Jetson VDD_IN,60,70.42183333333334,54.59,53.23,123.66,60.6,60.0,60.0,63.0
+NVIDIA GeForce RTX 3080,cooldown,nvidia-smi power.draw; GPU-reported board power,RTX GPU board power; not assumed equivalent to Jetson VDD_IN,60,61.379666666666665,50.705,49.63,120.95,59.483333333333334,59.0,59.0,61.0

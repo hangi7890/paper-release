@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="734.4pt" height="662.4pt" viewBox="0 0 734.4 662.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-28T08:18:42.355311</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 662.4 
+L 734.4 662.4 
+L 734.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 216 54 
+L 518.4 54 
+L 518.4 97.2 
+L 216 97.2 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 28.8 118.8 
+L 230.4 118.8 
+L 230.4 190.8 
+L 28.8 190.8 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 266.4 118.8 
+L 468 118.8 
+L 468 190.8 
+L 266.4 190.8 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 504 118.8 
+L 705.6 118.8 
+L 705.6 190.8 
+L 504 190.8 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 504 212.4 
+L 705.6 212.4 
+L 705.6 259.2 
+L 504 259.2 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #fff5ea; stroke: #d55e00; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 504 277.2 
+L 705.6 277.2 
+L 705.6 320.4 
+L 504 320.4 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #eaf4f0; stroke: #009e73; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 28.8 381.6 
+L 158.4 381.6 
+L 158.4 432 
+L 28.8 432 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 176.4 381.6 
+L 457.2 381.6 
+L 457.2 432 
+L 176.4 432 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 478.8 381.6 
+L 705.6 381.6 
+L 705.6 432 
+L 478.8 432 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #eaf4f0; stroke: #009e73; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 28.8 566.64 
+L 216 566.64 
+L 216 613.44 
+L 28.8 613.44 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 262.8 555.84 
+L 464.4 555.84 
+L 464.4 620.64 
+L 262.8 620.64 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 514.8 566.64 
+L 705.6 566.64 
+L 705.6 613.44 
+L 514.8 613.44 
+z
+" clip-path="url(#p97a5f7a11a)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="28.8" y="31.973125" transform="rotate(-0 28.8 31.973125)">(a) Site-separated cohorts</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(291.408281 71.572281)">BDG2 hourly electricity records</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(267.552891 85.380375)">Quality screening and cohort assignment</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 365.209607 97.380945 
+Q 248.402449 107.999777 132.597388 118.52751 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 136.5538 120.075671 
+L 132.597388 118.52751 
+L 136.209765 116.291277 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(112.177031 143.985797)">Source</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(79.773438 157.611016)">20 buildings / 4 sites</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(49.514844 171.236234)">Pretraining and source validation</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 367.2 99.20127 
+Q 367.2 108.002994 367.2 115.798489 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 369.1 111.998489 
+L 367.2 115.798489 
+L 365.3 111.998489 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(334.801562 143.985797)">Development</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(317.373437 157.611016)">12 buildings / 6 sites</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(314.013281 171.236234)">Protocol development</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 369.190393 97.380945 
+Q 485.997551 107.999777 601.802612 118.52751 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 598.190235 116.291277 
+L 601.802612 118.52751 
+L 597.8462 120.075671 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(543.364141 143.962937)">Final-evaluation proposal</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(551.915781 157.588156)">510 buildings / 9 sites</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(537.242813 171.259094)">Prespecified candidate pool</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(545.800469 231.772281)">Quality gate: exclude 57</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(528.723828 245.580375)">Continuous zero runs ≥30 days</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 604.8 192.80127 
+Q 604.8 201.602994 604.8 209.398489 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 606.7 205.598489 
+L 604.8 209.398489 
+L 602.9 205.598489 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 604.8 261.199512 
+Q 604.8 268.201679 604.8 274.197615 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 606.7 270.397615 
+L 604.8 274.197615 
+L 602.9 270.397615 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(566.28625 294.798406)">Final evaluation</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(551.915781 308.423625)">453 buildings / 7 sites</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(32.4 227.652344)">Non-overlapping source, development, and final site sets.</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(32.4 241.460437)">Mouse and Shrew had no eligible final buildings.</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(32.4 255.085656)">Site identities and cohort roles are listed in Table 1.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="28.8" y="355.806875" transform="rotate(-0 28.8 355.806875)">(b) Available observations and fixed evaluation</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(61.504062 402.798406)">Initial context</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(72.201562 416.423625)">24 hours</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(257.800469 402.798406)">Adaptation observations</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(263.906328 416.423625)">1 / 3 / 7 / 14 / 28 days</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(526.485313 402.863719)">Common evaluation period</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(524.336016 416.488937)">28 days / 672 hourly targets</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 160.399512 406.8 
+Q 167.401679 406.8 173.397615 406.8 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 169.597615 404.9 
+L 173.397615 406.8 
+L 169.597615 408.7 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 459.20127 406.8 
+Q 468.002994 406.8 475.798489 406.8 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 471.998489 404.9 
+L 475.798489 406.8 
+L 471.998489 408.7 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(36 453.699687)">Budgets (days)       0       1       3       7       14       28</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(36 467.324906)">Training windows    0       1      49     145     313      649</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #6a6a6a" x="36" y="496.289375" transform="rotate(-0 36 496.289375)">Schematic only; budgets are alternatives. Adaptation and evaluation targets do not overlap.</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="28.8" y="538.686875" transform="rotate(-0 28.8 538.686875)">(c) Matched model comparison</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(61.882812 586.103719)">Source-pretrained model</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(58.5175 599.728937)">Three fixed random seeds</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(315.918437 577.334359)">0 days: source-only</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(283.807891 590.959578)">1–28 days: head-only adaptation</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(295.438672 604.767672)">LSTM representation frozen</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(550.897969 586.103719)">Same evaluation targets</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(548.459063 599.728937)">MAE, RMSE, A/B, F1–F4</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 218.002368 589.68 
+Q 239.401823 589.68 259.795047 589.68 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 255.995047 587.78 
+L 259.795047 589.68 
+L 255.995047 591.58 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 466.402588 589.68 
+Q 489.601384 589.68 511.79395 589.68 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 507.99395 587.78 
+L 511.79395 589.68 
+L 507.99395 591.58 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p97a5f7a11a">
+   <rect x="7.2" y="7.2" width="720" height="648"/>
+  </clipPath>
+ </defs>
+</svg>

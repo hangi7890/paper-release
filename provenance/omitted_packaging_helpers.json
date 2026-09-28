@@ -1,0 +1,18 @@
+[
+  {
+    "path": "supplementary_final\\code\\compose_supplementary_markdown.py",
+    "reason": "document/package authoring helper, not scientific pipeline; private handoff/Office dependencies omitted"
+  },
+  {
+    "path": "supplementary_final\\code\\build_supplementary_docx.py",
+    "reason": "document/package authoring helper, not scientific pipeline; private handoff/Office dependencies omitted"
+  },
+  {
+    "path": "supplementary_final\\code\\build_supplementary_manifest.py",
+    "reason": "document/package authoring helper, not scientific pipeline; private handoff/Office dependencies omitted"
+  },
+  {
+    "path": "supplementary_final\\code\\verify_supplementary_package.py",
+    "reason": "document/package authoring helper, not scientific pipeline; private handoff/Office dependencies omitted"
+  }
+]

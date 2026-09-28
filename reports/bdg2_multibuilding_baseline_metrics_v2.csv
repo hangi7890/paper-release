@@ -1,0 +1,25 @@
+﻿building_id,site_id,primaryspaceusage,model,test_target_start,test_target_end,forecast_windows,fully_available_windows,n_values,mae,rmse,metric_status
+Bear_education_Bob,Bear,Education,previous_day,2017-02-12 02:00:00,2017-03-12 01:00:00,28,28,672,23.223390476190474,42.05674401506447,ok
+Bear_education_Bob,Bear,Education,weekly_same_hour,2017-02-12 02:00:00,2017-03-12 01:00:00,28,28,672,9.26066517857143,20.70624500772797,ok
+Bear_public_Jocelyn,Bear,Public services,previous_day,2017-02-12 02:00:00,2017-03-12 01:00:00,28,28,672,4.931997470238095,9.50732708430823,ok
+Bear_public_Jocelyn,Bear,Public services,weekly_same_hour,2017-02-12 02:00:00,2017-03-12 01:00:00,28,28,672,2.7736120535714286,4.789980743761933,ok
+Cockatoo_assembly_Griselda,Cockatoo,Entertainment/public assembly,previous_day,2016-09-27 12:00:00,2016-10-25 11:00:00,28,28,672,5.034573214285714,7.187180034861511,ok
+Cockatoo_assembly_Griselda,Cockatoo,Entertainment/public assembly,weekly_same_hour,2016-09-27 12:00:00,2016-10-25 11:00:00,28,28,672,5.94117068452381,8.398455918677033,ok
+Cockatoo_education_Doreen,Cockatoo,Education,previous_day,2016-09-27 12:00:00,2016-10-25 11:00:00,28,28,672,9.88309761904762,13.452290410497504,ok
+Cockatoo_education_Doreen,Cockatoo,Education,weekly_same_hour,2016-09-27 12:00:00,2016-10-25 11:00:00,28,28,672,7.73680550595238,10.815686073312383,ok
+Fox_education_Henrietta,Fox,Education,previous_day,2017-12-04 00:00:00,2017-12-31 23:00:00,28,28,672,6.156860119047619,11.039510582394925,ok
+Fox_education_Henrietta,Fox,Education,weekly_same_hour,2017-12-04 00:00:00,2017-12-31 23:00:00,28,28,672,9.10345238095238,12.75007371594003,ok
+Fox_lodging_Helen,Fox,Lodging/residential,previous_day,2017-12-04 00:00:00,2017-12-31 23:00:00,28,28,672,13.477961309523808,25.767018211849077,ok
+Fox_lodging_Helen,Fox,Lodging/residential,weekly_same_hour,2017-12-04 00:00:00,2017-12-31 23:00:00,28,28,672,34.74974702380952,52.742008364109175,ok
+Panther_education_Scarlett,Panther,Education,previous_day,2017-01-17 20:00:00,2017-02-14 19:00:00,28,28,672,3.7272058035714286,5.739914579585441,ok
+Panther_education_Scarlett,Panther,Education,weekly_same_hour,2017-01-17 20:00:00,2017-02-14 19:00:00,28,28,672,4.238289136904761,6.559328895798634,ok
+Panther_office_Clementine,Panther,Office,previous_day,2017-01-17 20:00:00,2017-02-14 19:00:00,28,28,672,7.246572619047619,10.10228766149211,ok
+Panther_office_Clementine,Panther,Office,weekly_same_hour,2017-01-17 20:00:00,2017-02-14 19:00:00,28,28,672,8.833578571428571,10.988794037102124,ok
+Peacock_education_Robbie,Peacock,Education,previous_day,2017-02-12 02:00:00,2017-03-12 01:00:00,28,28,672,8.824255952380952,11.639622183229717,ok
+Peacock_education_Robbie,Peacock,Education,weekly_same_hour,2017-02-12 02:00:00,2017-03-12 01:00:00,28,28,672,8.464038839285715,11.613748370722831,ok
+Peacock_lodging_Lou,Peacock,Lodging/residential,previous_day,2017-02-12 02:00:00,2017-03-12 01:00:00,28,28,672,9.775373214285715,13.148949492242853,ok
+Peacock_lodging_Lou,Peacock,Lodging/residential,weekly_same_hour,2017-02-12 02:00:00,2017-03-12 01:00:00,28,28,672,9.266095535714285,12.482708373972487,ok
+Wolf_education_Cheryl,Wolf,Education,previous_day,2017-10-01 09:00:00,2017-10-29 08:00:00,28,28,672,32.85940104166667,55.19535156938428,ok
+Wolf_education_Cheryl,Wolf,Education,weekly_same_hour,2017-10-01 09:00:00,2017-10-29 08:00:00,28,28,672,29.735409226190477,52.82859911284976,ok
+Wolf_office_Darleen,Wolf,Office,previous_day,2017-10-01 09:00:00,2017-10-29 08:00:00,28,28,672,9.452380952380953,16.993433605786844,ok
+Wolf_office_Darleen,Wolf,Office,weekly_same_hour,2017-10-01 09:00:00,2017-10-29 08:00:00,28,28,672,8.639880952380953,15.54161081312573,ok

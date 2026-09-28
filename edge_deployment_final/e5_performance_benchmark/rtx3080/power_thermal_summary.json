@@ -1,0 +1,157 @@
+{
+  "status": "PASS",
+  "device": "NVIDIA GeForce RTX 3080",
+  "measurement_source": "nvidia-smi power.draw; GPU-reported board power",
+  "measurement_domain": "RTX GPU board power; not assumed equivalent to Jetson VDD_IN",
+  "phases": {
+    "idle": {
+      "sample_count": 60,
+      "power_draw_w": {
+        "count": 60,
+        "mean": 63.372666666666674,
+        "median": 53.465,
+        "minimum": 51.93,
+        "maximum": 121.67
+      },
+      "gpu_temperature_c": {
+        "count": 60,
+        "mean": 60.93333333333333,
+        "median": 61.0,
+        "minimum": 60.0,
+        "maximum": 63.0
+      },
+      "gpu_utilization_percent": {
+        "count": 60,
+        "mean": 31.783333333333335,
+        "median": 33.0,
+        "minimum": 11.0,
+        "maximum": 88.0
+      },
+      "memory_used_mib": {
+        "count": 60,
+        "mean": 2084.0666666666666,
+        "median": 2064.0,
+        "minimum": 2025.0,
+        "maximum": 2355.0
+      },
+      "sm_clock_mhz": {
+        "count": 60,
+        "mean": 791.5,
+        "median": 660.0,
+        "minimum": 315.0,
+        "maximum": 1755.0
+      },
+      "memory_clock_mhz": {
+        "count": 60,
+        "mean": 2226.0,
+        "median": 810.0,
+        "minimum": 405.0,
+        "maximum": 9501.0
+      }
+    },
+    "active": {
+      "sample_count": 60,
+      "power_draw_w": {
+        "count": 60,
+        "mean": 70.42183333333334,
+        "median": 54.59,
+        "minimum": 53.23,
+        "maximum": 123.66
+      },
+      "gpu_temperature_c": {
+        "count": 60,
+        "mean": 60.6,
+        "median": 60.0,
+        "minimum": 60.0,
+        "maximum": 63.0
+      },
+      "gpu_utilization_percent": {
+        "count": 60,
+        "mean": 47.56666666666667,
+        "median": 55.5,
+        "minimum": 17.0,
+        "maximum": 62.0
+      },
+      "memory_used_mib": {
+        "count": 60,
+        "mean": 2376.5833333333335,
+        "median": 2362.0,
+        "minimum": 2341.0,
+        "maximum": 2489.0
+      },
+      "sm_clock_mhz": {
+        "count": 60,
+        "mean": 890.75,
+        "median": 637.5,
+        "minimum": 495.0,
+        "maximum": 1755.0
+      },
+      "memory_clock_mhz": {
+        "count": 60,
+        "mean": 2918.2833333333333,
+        "median": 810.0,
+        "minimum": 810.0,
+        "maximum": 9251.0
+      }
+    },
+    "cooldown": {
+      "sample_count": 60,
+      "power_draw_w": {
+        "count": 60,
+        "mean": 61.379666666666665,
+        "median": 50.705,
+        "minimum": 49.63,
+        "maximum": 120.95
+      },
+      "gpu_temperature_c": {
+        "count": 60,
+        "mean": 59.483333333333334,
+        "median": 59.0,
+        "minimum": 59.0,
+        "maximum": 61.0
+      },
+      "gpu_utilization_percent": {
+        "count": 60,
+        "mean": 27.183333333333334,
+        "median": 27.5,
+        "minimum": 8.0,
+        "maximum": 55.0
+      },
+      "memory_used_mib": {
+        "count": 60,
+        "mean": 2064.05,
+        "median": 2050.0,
+        "minimum": 2035.0,
+        "maximum": 2187.0
+      },
+      "sm_clock_mhz": {
+        "count": 60,
+        "mean": 689.0,
+        "median": 495.0,
+        "minimum": 360.0,
+        "maximum": 1755.0
+      },
+      "memory_clock_mhz": {
+        "count": 60,
+        "mean": 2137.85,
+        "median": 810.0,
+        "minimum": 405.0,
+        "maximum": 9501.0
+      }
+    }
+  },
+  "initial_gpu_temperature_c": 61.0,
+  "idle_reported_power_mean_w": 63.372666666666674,
+  "sustained_reported_power_mean_w": 70.42183333333334,
+  "sustained_reported_power_peak_w": 123.66,
+  "power_change_from_idle_w": 7.049166666666665,
+  "sustained_gpu_temperature_mean_c": 60.6,
+  "sustained_gpu_temperature_peak_c": 63.0,
+  "gpu_temperature_change_from_idle_mean_c": -0.3333333333333286,
+  "warning_scan": {
+    "keyword_pattern": "thermal shutdown|throttl|overheat|oc alarm",
+    "reported_warning_count": 0,
+    "matches": [],
+    "limitation": "Raw telemetry does not expose every hardware throttling condition; zero matches means no warning text was reported in these files."
+  }
+}

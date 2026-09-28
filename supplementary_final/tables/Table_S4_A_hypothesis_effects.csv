@@ -1,0 +1,4 @@
+hypothesis,estimand,estimate,ci95_lower,ci95_upper,status
+H1,site-equal MAE(28d) - MAE(source-only),-16.482888133,-30.907569879,-6.56297796855,supported by predefined criterion
+H2,site-equal F1 rate(28d) - F1 rate(1d),-0.551526864698,-0.679617292789,-0.455237391104,secondary effect-size analysis
+H3,site-equal A rate(28d) - B rate(28d),0.679884877048,0.583579951647,0.783540480704,secondary effect-size analysis

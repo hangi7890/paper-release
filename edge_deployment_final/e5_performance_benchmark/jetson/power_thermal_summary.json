@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "device": "Jetson Orin Nano",
+  "measurement_source": "tegrastats VDD_IN; device-reported input rail",
+  "measurement_domain": "Jetson VDD_IN rail; not assumed equivalent to RTX GPU board power",
+  "phases": {
+    "idle": {
+      "sample_count": 59,
+      "vdd_in_w": {
+        "count": 59,
+        "mean": 3.1463389830508484,
+        "median": 3.149,
+        "minimum": 3.109,
+        "maximum": 3.23
+      },
+      "gpu_temperature_c": {
+        "count": 59,
+        "mean": 49.80213559322034,
+        "median": 49.75,
+        "minimum": 49.625,
+        "maximum": 50.031
+      },
+      "cpu_temperature_c": {
+        "count": 59,
+        "mean": 50.01286440677966,
+        "median": 50.0,
+        "minimum": 49.843,
+        "maximum": 50.25
+      },
+      "tj_temperature_c": {
+        "count": 59,
+        "mean": 50.50486440677967,
+        "median": 50.5,
+        "minimum": 50.343,
+        "maximum": 50.718
+      },
+      "gr3d_utilization_percent": {
+        "count": 59,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cpu_mean_utilization_percent": {
+        "count": 59,
+        "mean": 0.13559322033898305,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.3333333333333333
+      },
+      "ram_used_mb": {
+        "count": 59,
+        "mean": 1212.3728813559321,
+        "median": 1212.0,
+        "minimum": 1212.0,
+        "maximum": 1214.0
+      }
+    },
+    "active": {
+      "sample_count": 59,
+      "vdd_in_w": {
+        "count": 59,
+        "mean": 4.030610169491526,
+        "median": 4.032,
+        "minimum": 3.991,
+        "maximum": 4.032
+      },
+      "gpu_temperature_c": {
+        "count": 59,
+        "mean": 50.32905084745762,
+        "median": 50.343,
+        "minimum": 49.781,
+        "maximum": 50.843
+      },
+      "cpu_temperature_c": {
+        "count": 59,
+        "mean": 50.75864406779662,
+        "median": 50.781,
+        "minimum": 50.218,
+        "maximum": 51.218
+      },
+      "tj_temperature_c": {
+        "count": 59,
+        "mean": 51.005457627118645,
+        "median": 51.0,
+        "minimum": 50.531,
+        "maximum": 51.406
+      },
+      "gr3d_utilization_percent": {
+        "count": 59,
+        "mean": 22.084745762711865,
+        "median": 22.0,
+        "minimum": 22.0,
+        "maximum": 23.0
+      },
+      "cpu_mean_utilization_percent": {
+        "count": 59,
+        "mean": 16.69491525423729,
+        "median": 16.666666666666668,
+        "minimum": 15.833333333333334,
+        "maximum": 17.333333333333332
+      },
+      "ram_used_mb": {
+        "count": 59,
+        "mean": 1330.7288135593221,
+        "median": 1331.0,
+        "minimum": 1330.0,
+        "maximum": 1331.0
+      }
+    },
+    "cooldown": {
+      "sample_count": 59,
+      "vdd_in_w": {
+        "count": 59,
+        "mean": 3.1503728813559326,
+        "median": 3.149,
+        "minimum": 3.149,
+        "maximum": 3.23
+      },
+      "gpu_temperature_c": {
+        "count": 59,
+        "mean": 50.45664406779661,
+        "median": 50.437,
+        "minimum": 50.156,
+        "maximum": 50.75
+      },
+      "cpu_temperature_c": {
+        "count": 59,
+        "mean": 50.63727118644068,
+        "median": 50.625,
+        "minimum": 50.375,
+        "maximum": 50.968
+      },
+      "tj_temperature_c": {
+        "count": 59,
+        "mean": 51.128305084745755,
+        "median": 51.125,
+        "minimum": 50.843,
+        "maximum": 51.406
+      },
+      "gr3d_utilization_percent": {
+        "count": 59,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "cpu_mean_utilization_percent": {
+        "count": 59,
+        "mean": 0.10169491525423731,
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.0
+      },
+      "ram_used_mb": {
+        "count": 59,
+        "mean": 1212.0,
+        "median": 1212.0,
+        "minimum": 1212.0,
+        "maximum": 1212.0
+      }
+    }
+  },
+  "initial_gpu_temperature_c": 49.75,
+  "idle_reported_power_mean_w": 3.1463389830508484,
+  "sustained_reported_power_mean_w": 4.030610169491526,
+  "sustained_reported_power_peak_w": 4.032,
+  "power_change_from_idle_w": 0.8842711864406776,
+  "sustained_gpu_temperature_mean_c": 50.32905084745762,
+  "sustained_gpu_temperature_peak_c": 50.843,
+  "gpu_temperature_change_from_idle_mean_c": 0.5269152542372808,
+  "warning_scan": {
+    "keyword_pattern": "thermal shutdown|throttl|overheat|oc alarm",
+    "reported_warning_count": 0,
+    "matches": [],
+    "limitation": "Raw telemetry does not expose every hardware throttling condition; zero matches means no warning text was reported in these files."
+  }
+}

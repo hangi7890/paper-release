@@ -1,0 +1,34 @@
+[
+  {
+    "file": "publication/code/make_tables.py",
+    "change": "Fix missing import: only make_publication_figures.py exists in supplied v3 ZIP; same imported constants."
+  },
+  {
+    "file": "publication\\code\\make_publication_figures.py",
+    "change": "Do not rewrite presentation CSVs when imported by table builder; direct script behavior retained."
+  },
+  {
+    "file": "publication/code/make_figure8_from_predictions.py",
+    "change": "Preserve original naive timestamps; remove unsupported UTC labeling in rendering only. Values and relative-hour plots unchanged."
+  },
+  {
+    "file": "scripts\\final_v1\\run_final_v1_gate2.py",
+    "change": "Pin sanitized reports/bdg2_v5_final_analysis_protocol_draft.md: 359db1e34ba8fdc8d472267ca544b99005e4bcb92bacc77beedd4dd14942dee3; historical digest remains in provenance."
+  },
+  {
+    "file": "scripts\\final_v1\\run_final_v1_gate2.py",
+    "change": "Pin sanitized reports/final_v1_protocol_manifest.md: 3e51a1f6243c324e9bbf9f085ba363416ae5575fbe2dec023595166376e3eb44; historical digest remains in provenance."
+  },
+  {
+    "file": "scripts\\final_v1\\run_final_v1_gate2.py",
+    "change": "Pin sanitized models/bdg2_stage6_v3/bdg2_stage6_c0_lstm_config_v3.json: c2cb99e8a01403175bc6240edd990a6a53d2244187038c41f1dba6727da1bd9f; historical digest remains in provenance."
+  },
+  {
+    "file": "supplementary_final/code/build_supplementary_data_figures.py",
+    "change": "Use locally measured excluded-checkpoint size inventory; do not require private checkpoint to render tables."
+  },
+  {
+    "file": "supplementary_final/code/build_supplementary_data_figures.py",
+    "change": "Report measured original checkpoint size when checkpoint deliberately omitted."
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "status": "FAIL",
+  "mode": "core",
+  "elapsed_seconds": 2.9689999999973224,
+  "python": "3.12.14",
+  "checks": [
+    {
+      "check": "all Python files parse",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "test_final_v1_gate1_synthetic.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "test_final_v1_gate2_synthetic.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "test_final_v1_gate3_synthetic.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C0 shape and power-lag normalization",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "target calendar begins at target midnight",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "historical optimizer/batch configuration",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "new_model_experiment": false
+}

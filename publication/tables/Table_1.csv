@@ -1,0 +1,5 @@
+﻿Cohort,"Sites, n","Buildings, n",Site IDs,Role in the study
+Source,4,20,"Crow, Lamb, Rat, Robin",Source-model pretraining and source-side model selection
+Development,6,12,"Bear, Cockatoo, Fox, Panther, Peacock, Wolf","Protocol development, adaptation analysis, and formulation of final-evaluation hypotheses"
+Final-evaluation proposal,9,510,"Bobcat, Bull, Eagle, Gator, Hog, Moose, Mouse, Shrew, Swan",Prespecified candidate pool for final evaluation
+Final evaluation,7,453,"Bobcat, Bull, Eagle, Gator, Hog, Moose, Swan",Frozen final evaluation of the predefined protocol

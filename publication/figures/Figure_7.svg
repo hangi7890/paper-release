@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="734.4pt" height="698.4pt" viewBox="0 0 734.4 698.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-28T08:18:54.543619</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 698.4 
+L 734.4 698.4 
+L 734.4 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 28.8 57.6 
+L 223.2 57.6 
+L 223.2 115.2 
+L 28.8 115.2 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 266.4 57.6 
+L 468 57.6 
+L 468 115.2 
+L 266.4 115.2 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 511.2 57.6 
+L 705.6 57.6 
+L 705.6 115.2 
+L 511.2 115.2 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 72 136.8 
+L 662.4 136.8 
+L 662.4 187.2 
+L 72 187.2 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #eaf4f0; stroke: #009e73; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 172.8 244.08 
+L 313.2 244.08 
+L 313.2 283.68 
+L 172.8 283.68 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 349.2 244.08 
+L 489.6 244.08 
+L 489.6 283.68 
+L 349.2 283.68 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 525.6 244.08 
+L 705.6 244.08 
+L 705.6 283.68 
+L 525.6 283.68 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 172.8 307.44 
+L 313.2 307.44 
+L 313.2 347.04 
+L 172.8 347.04 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 349.2 307.44 
+L 489.6 307.44 
+L 489.6 347.04 
+L 349.2 347.04 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 525.6 307.44 
+L 705.6 307.44 
+L 705.6 347.04 
+L 525.6 347.04 
+z
+" clip-path="url(#pff55177ce2)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <defs>
+     <path id="m3a80b50708" d="M 0 3.5 
+C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 
+C 3.131218 1.81853 3.5 0.928211 3.5 0 
+C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 
+C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 
+C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 
+C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 
+C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 
+C -1.81853 3.131218 -0.928211 3.5 0 3.5 
+z
+" style="stroke: #0072b2"/>
+    </defs>
+    <g clip-path="url(#pff55177ce2)">
+     <use xlink:href="#m3a80b50708" x="498.79872" y="475.2" style="fill: #0072b2; stroke: #0072b2"/>
+    </g>
+   </g>
+   <g id="line2d_2">
+    <defs>
+     <path id="m7fbfdbb180" d="M 0 3.5 
+C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 
+C 3.131218 1.81853 3.5 0.928211 3.5 0 
+C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 
+C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 
+C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 
+C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 
+C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 
+C -1.81853 3.131218 -0.928211 3.5 0 3.5 
+z
+" style="stroke: #d55e00"/>
+    </defs>
+    <g clip-path="url(#pff55177ce2)">
+     <use xlink:href="#m7fbfdbb180" x="317.18592" y="512.64" style="fill: #d55e00; stroke: #d55e00"/>
+    </g>
+   </g>
+   <g id="line2d_3">
+    <g clip-path="url(#pff55177ce2)">
+     <use xlink:href="#m3a80b50708" x="573.50952" y="550.08" style="fill: #0072b2; stroke: #0072b2"/>
+    </g>
+   </g>
+   <g id="line2d_4">
+    <g clip-path="url(#pff55177ce2)">
+     <use xlink:href="#m7fbfdbb180" x="339.336" y="587.52" style="fill: #d55e00; stroke: #d55e00"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="28.8" y="28.206875" transform="rotate(-0 28.8 28.206875)">(a) Transfer and numerical-consistency validation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(57.925 82.679062)">Frozen source-only checkpoint</text>
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(47.347656 95.231875)">Seed 20260924 / 5,912 parameters</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(304.679688 82.762187)">Integrity and runtime checks</text>
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(289.670312 95.14875)">Weights, shapes, FP32, eval mode</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(555.607031 82.762187)">Jetson CUDA validation</text>
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(550.870312 95.14875)">64 vectors / 1,536 outputs</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 225.20127 86.4 
+Q 244.801093 86.4 263.394686 86.4 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 259.594686 84.5 
+L 263.394686 86.4 
+L 259.594686 88.3 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 470.00127 86.4 
+Q 489.601093 86.4 508.194686 86.4 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 504.394686 84.5 
+L 508.194686 86.4 
+L 504.394686 88.3 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(274.584297 158.040859)">Predefined consistency criteria: PASS</text>
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(169.143281 171.711797)">Maximum absolute difference: 1.4782 × 10^-5 normalized / 0.00524 original scale</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="28.8" y="226.206875" transform="rotate(-0 28.8 226.206875)">(b) Latency measurement boundaries</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="28.8" y="262.899687" transform="rotate(-0 28.8 262.899687)">Model-only</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="243" y="266.756328" transform="rotate(-0 243 266.756328)">GPU-resident input</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="419.4" y="266.691016" transform="rotate(-0 419.4 266.691016)">Model forward</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="615.6" y="266.756328" transform="rotate(-0 615.6 266.756328)">GPU-resident output</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 315.199512 263.52 
+Q 331.201573 263.52 346.197403 263.52 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 342.397403 261.62 
+L 346.197403 263.52 
+L 342.397403 265.42 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 491.599512 263.52 
+Q 507.601573 263.52 522.597403 263.52 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 518.797403 261.62 
+L 522.597403 263.52 
+L 518.797403 265.42 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(28.8 323.379687)">Deployment</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(28.8 337.016937)">end-to-end</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="243" y="330.051016" transform="rotate(-0 243 330.051016)">CPU → GPU</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="419.4" y="330.051016" transform="rotate(-0 419.4 330.051016)">Model forward</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="615.6" y="330.051016" transform="rotate(-0 615.6 330.051016)">GPU → CPU</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 315.199512 327.6 
+Q 331.201573 327.6 346.197403 327.6 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 342.397403 325.7 
+L 346.197403 327.6 
+L 342.397403 329.5 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 491.599512 327.6 
+Q 507.601573 327.6 522.597403 327.6 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 518.797403 325.7 
+L 522.597403 327.6 
+L 518.797403 329.5 
+" style="fill: none; stroke: #6a6a6a; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #6a6a6a" x="172.8" y="370.289375" transform="rotate(-0 172.8 370.289375)">Excluded: disk I/O, Python startup, checkpoint loading</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="28.8" y="411.966875" transform="rotate(-0 28.8 411.966875)">(c) Batch-1 FP32 latency summaries</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 11px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="259.2" y="440.25" transform="rotate(-0 259.2 440.25)">Median ●     P95 │</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="32.4" y="475.409375" transform="rotate(-0 32.4 475.409375)">Jetson Orin Nano / Model-only</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 257.59704 475.2 
+Q 453.599024 475.2 649.601007 475.2 
+" style="fill: none; stroke: #e4e9ec; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 500.796885 475.2 
+Q 508.802816 475.2 516.808747 475.2 
+" style="fill: none; stroke: #0072b2; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 518.80968 471.439687 
+Q 518.80968 475.198073 518.80968 478.956458 
+" style="fill: none; stroke: #0072b2; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(658.8 474.561562)">0.676</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(658.8 485.709469)">0.731</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="32.4" y="512.730625" transform="rotate(-0 32.4 512.730625)">RTX 3080 / Model-only</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 257.59704 512.64 
+Q 453.599024 512.64 649.601007 512.64 
+" style="fill: none; stroke: #e4e9ec; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 319.187435 512.64 
+Q 350.175797 512.64 381.16416 512.64 
+" style="fill: none; stroke: #d55e00; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 383.16744 508.879687 
+Q 383.16744 512.638073 383.16744 516.396458 
+" style="fill: none; stroke: #d55e00; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(658.8 512.001562)">0.171</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(658.8 523.149469)">0.354</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="32.4" y="550.170625" transform="rotate(-0 32.4 550.170625)">Jetson Orin Nano / End-to-end</text>
+   </g>
+   <g id="patch_24">
+    <path d="M 257.59704 550.08 
+Q 453.599024 550.08 649.601007 550.08 
+" style="fill: none; stroke: #e4e9ec; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 575.513953 550.08 
+Q 583.260789 550.08 591.007625 550.08 
+" style="fill: none; stroke: #0072b2; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 593.01108 546.319687 
+Q 593.01108 550.078073 593.01108 553.836458 
+" style="fill: none; stroke: #0072b2; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(658.8 549.441562)">0.883</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(658.8 560.589469)">0.937</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="32.4" y="587.610625" transform="rotate(-0 32.4 587.610625)">RTX 3080 / End-to-end</text>
+   </g>
+   <g id="patch_27">
+    <path d="M 257.59704 587.52 
+Q 453.599024 587.52 649.601007 587.52 
+" style="fill: none; stroke: #e4e9ec; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 341.335089 587.52 
+Q 461.778148 587.52 582.221206 587.52 
+" style="fill: none; stroke: #d55e00; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 584.2188 583.759687 
+Q 584.2188 587.518073 584.2188 591.276458 
+" style="fill: none; stroke: #d55e00; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(658.8 586.881562)">0.233</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; fill: #202020" transform="translate(658.8 598.029469)">0.913</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="255.6" y="616.401562" transform="rotate(-0 255.6 616.401562)">0.0</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="327.6" y="616.401562" transform="rotate(-0 327.6 616.401562)">0.2</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="399.6" y="616.401562" transform="rotate(-0 399.6 616.401562)">0.4</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="471.6" y="616.401562" transform="rotate(-0 471.6 616.401562)">0.6</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="543.6" y="616.401562" transform="rotate(-0 543.6 616.401562)">0.8</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="615.6" y="616.401562" transform="rotate(-0 615.6 616.401562)">1.0</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 10px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202020" x="414" y="637.290625" transform="rotate(-0 414 637.290625)">Latency (ms)</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans', 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202020" x="32.4" y="661.788281" transform="rotate(-0 32.4 661.788281)">5,000 observations per mode and device; no outlier removal. Median and P95 are not a full distribution.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pff55177ce2">
+   <rect x="7.2" y="7.2" width="720" height="684"/>
+  </clipPath>
+ </defs>
+</svg>

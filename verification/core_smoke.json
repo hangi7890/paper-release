@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "mode": "core",
+  "elapsed_seconds": 3.4840000000040163,
+  "python": "3.12.14",
+  "checks": [
+    {
+      "check": "all Python files parse",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "test_final_v1_gate1_synthetic.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "test_final_v1_gate2_synthetic.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "test_final_v1_gate3_synthetic.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "C0 shape and power-lag normalization",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "target calendar begins at target midnight",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "historical optimizer/batch configuration",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "mean MSE/head-only implementation retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "actual quality auditor on 49-row fixture",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "saved Figure 8 6720 rows / 10 keys",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no duplicated case prediction keys",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "finite saved values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Eagle_education_Brooke', 20260924, 0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Eagle_education_Brooke', 20260924, 14)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Eagle_education_Brooke', 20260925, 0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Eagle_education_Brooke', 20260925, 14)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Eagle_education_Brooke', 20260926, 0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Eagle_education_Brooke', 20260926, 14)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Hog_office_Gustavo', 20260926, 0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Hog_office_Gustavo', 20260926, 1)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Hog_office_Roger', 20260926, 0)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "case ('Hog_office_Roger', 20260926, 1)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "saved Figure 8 metric recomputation",
+      "pass": true,
+      "detail": "max difference 5.68e-14"
+    },
+    {
+      "check": "Figure 8 source/adapted target keys and observations identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "all F1-F4 saved counts reproduced",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "all six site-equal adaptation results",
+      "pass": true,
+      "detail": "max difference 0"
+    },
+    {
+      "check": "H1/H2/H3 saved effects and CIs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "453 buildings / 7 sites",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "documented final missingness discrepancy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "350 exploratory association records match",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "saved E4 normalized",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "saved E4 physical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "saved 5000 latency values jetson/model_only",
+      "pass": true,
+      "detail": "{'maximum_absolute_statistic_difference': 0.0, 'tolerance': 1e-12, 'pass': True}"
+    },
+    {
+      "check": "saved 5000 latency values jetson/end_to_end",
+      "pass": true,
+      "detail": "{'maximum_absolute_statistic_difference': 0.0, 'tolerance': 1e-12, 'pass': True}"
+    },
+    {
+      "check": "saved 5000 latency values rtx3080/model_only",
+      "pass": true,
+      "detail": "{'maximum_absolute_statistic_difference': 0.0, 'tolerance': 1e-12, 'pass': True}"
+    },
+    {
+      "check": "saved 5000 latency values rtx3080/end_to_end",
+      "pass": true,
+      "detail": "{'maximum_absolute_statistic_difference': 0.0, 'tolerance': 1e-12, 'pass': True}"
+    }
+  ],
+  "new_model_experiment": false
+}

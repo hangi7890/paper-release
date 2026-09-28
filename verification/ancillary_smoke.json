@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "mode": "ancillary",
+  "elapsed_seconds": 1.8364001000009011,
+  "python": "3.13.9",
+  "checks": [
+    {
+      "check": "workspace helper resolves release root",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "main table builder imports without missing local module",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Supplementary data/table reconstruction without checkpoints",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Data S17 original gap retained",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "new_model_experiment": false
+}

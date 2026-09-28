@@ -1,0 +1,16 @@
+days,characteristic,n,spearman_rho
+1,Daily repeatability,389,-0.4063
+1,24-h context scale gap,453,-0.3221
+1,Available-data scale gap,453,-0.3194
+3,Available-data scale gap,453,-0.4128
+3,24-h context scale gap,453,-0.3891
+3,Available-data CV,453,0.2979
+7,Available-data CV,453,0.3185
+7,Available-data scale gap,453,-0.299
+7,24-h context scale gap,453,-0.2837
+14,24-h context mean,453,-0.3225
+14,Source-mean percentile,453,-0.3186
+14,Available-data mean,453,-0.3153
+28,Source-mean percentile,453,-0.3513
+28,Available-data mean,453,-0.351
+28,24-h context mean,453,-0.3509

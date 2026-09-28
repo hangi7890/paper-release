@@ -1,0 +1,4 @@
+case_type,building_id,site_id,adaptation_days,seed,selection_value,selection_rule
+repeated_f1,Hog_office_Roger,Hog,1,20260926,5,most seed-mean F1 budgets; tie max mean delta then building_id
+f4_seed_direction_mixed,Eagle_education_Brooke,Eagle,14,20260924,226.53299509003176,largest seed delta range; tie building_id then budget
+mae_improved_rmse_worsened,Hog_office_Gustavo,Hog,1,20260926,6.4848473734172671,"largest RMSE worsening; tie building_id, budget, seed"

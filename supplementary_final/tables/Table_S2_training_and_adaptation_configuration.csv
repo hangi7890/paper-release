@@ -1,0 +1,21 @@
+section,setting,value,interpretation
+Input,Sequence length,24,hours
+Input,Features per step,6,normalized past electricity plus five target-calendar features
+Output,Forecast horizon,24,direct multi-output hours
+Architecture,LSTM hidden units/layers,32 / 1,single-layer LSTM
+Architecture,Trainable parameters,5912,FP32 deployment model
+Normalization,Source mean,167.0651976323119,source-only training data
+Normalization,Source population standard deviation,354.328669571624,source-only training data
+Source training,Loss,torch.nn.MSELoss with default mean reduction on source-normalized 24-hour targets,mean reduction
+Source training,Optimizer and learning rate,Adam; 0.001,all model parameters
+Source training,Batch rule,"256; OOM-only fallbacks 128, 64",completed run used 256
+Source training,Samples,218206 train; 12980 validation,fixed source buildings
+Source training,Epoch rule,maximum 100; patience 10; min_delta 1e-5,validation MSE selection
+Source training,Shuffle / drop_last,True / False,partial source batch retained
+Adaptation,Loss,torch.nn.MSELoss with default mean reduction on source-normalized 24-hour targets,same loss as source training
+Adaptation,Optimizer and learning rate,Adam; 0.0005,output head only
+Adaptation,Epochs,50,no early stopping
+Adaptation,Nominal candidate batch,64,fallback 32 then 16 only on CUDA OOM
+Adaptation,Actual loader rule,"min(candidate batch, number of samples)",drop_last=False
+Adaptation,Shuffle / drop_last,True / False,seeded generator
+Adaptation,Frozen parameters,all LSTM parameters,optimizer receives model.head.parameters() only

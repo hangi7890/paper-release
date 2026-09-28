@@ -1,0 +1,7 @@
+adaptation_days,supervised_windows,effective_loader_batch_size,batches_per_epoch,batch_sizes_per_epoch
+0,0,0,0,none
+1,1,1,1,1
+3,49,49,1,49
+7,145,64,3,"64,64,17"
+14,313,64,5,"64,64,64,64,57"
+28,649,64,11,"64x10,9"

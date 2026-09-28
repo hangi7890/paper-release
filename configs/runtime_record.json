@@ -1,0 +1,18 @@
+{
+  "source_run_record": {
+    "python": "3.12.14",
+    "torch": "2.11.0+cu128",
+    "cuda_runtime": "12.8",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "source_device": "NVIDIA GeForce RTX 3080",
+  "jetson": {
+    "torch": "2.11.0",
+    "cuda": "12.6",
+    "device": "Orin",
+    "compute_capability": "8.7"
+  },
+  "runtime_source": "source configuration and E4 report; no new hardware probe",
+  "portability_checks": "Existing environments used; no clean dependency installation performed"
+}

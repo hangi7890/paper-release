@@ -1,0 +1,14 @@
+PASS | publication rounded MAE
+PASS | publication rounded RMSE
+PASS | publication rounded DMAE
+PASS | publication rounded DRMSE
+PASS | publication counts F1
+PASS | publication counts F2
+PASS | publication counts F3-PD
+PASS | publication counts F3-W
+PASS | publication counts F3-any
+PASS | publication counts F3-both
+PASS | publication counts F4
+Figure 8 created from validated real predictions. Inspect labels and curves before submission.
+PASS | Figure 8 renders from existing predictions
+Only saved-result rendering was executed; temporary smoke graphics were not added as scientific results.

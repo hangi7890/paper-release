@@ -1,0 +1,19 @@
+{
+  "index_convention": "zero-based [vector_id, horizon_index]",
+  "normalized": {
+    "vector_id": 51,
+    "horizon_index": 16,
+    "reference": 6.002083778381348,
+    "jetson": 6.002098560333252,
+    "absolute_difference": 1.4781951904296875e-05,
+    "signed_difference": 1.4781951904296875e-05
+  },
+  "physical": {
+    "vector_id": 51,
+    "horizon_index": 16,
+    "reference": 2293.775557483601,
+    "jetson": 2293.780795152953,
+    "absolute_difference": 0.0052376693520272966,
+    "signed_difference": 0.0052376693520272966
+  }
+}

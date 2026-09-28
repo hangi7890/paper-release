@@ -1,0 +1,145 @@
+{
+  "audit_type": "read_only_final_stage6_execution_path_audit",
+  "new_experiment_executed": false,
+  "model_or_prediction_executed": false,
+  "source_code_modified": false,
+  "source_training_loss": {
+    "result": "torch.nn.MSELoss with default mean reduction on source-normalized 24-hour targets",
+    "implementation": "criterion = nn.MSELoss(); loss = criterion(model(features), targets)",
+    "validation_selection_loss": "manual elementwise squared-error sum divided by targets.numel(), equivalent to mean squared error",
+    "file": "scripts/run_bdg2_stage6_c0_lstm_v3.py",
+    "function": "fit_source_once",
+    "lines": [150, 154, 172]
+  },
+  "target_adaptation_loss": {
+    "result": "torch.nn.MSELoss with default mean reduction on source-normalized 24-hour targets",
+    "same_as_source_training": true,
+    "implementation": "criterion = nn.MSELoss(); loss = criterion(model(features), targets)",
+    "file": "scripts/run_bdg2_stage6_c0_lstm_v3.py",
+    "function": "adapt_head_once",
+    "lines": [234, 249, 256]
+  },
+  "source_batch_size": 256,
+  "source_batch_rule": {
+    "rule": "fit_source tries source_batch_size=256 first, then 128 and 64 only after torch.cuda.OutOfMemoryError; the completed three-seed run recorded batch 256 with no OOM fallback",
+    "training_samples": 218206,
+    "effective_batches_per_epoch": "852 full batches of 256 and one retained partial batch of 94",
+    "file": "scripts/run_bdg2_stage6_c0_lstm_v3.py",
+    "functions": ["fit_source", "fit_source_once", "main"],
+    "lines": [63, 150, 155, 157, 209, 211, 213, 216, 217, 360, 365, 388, 389]
+  },
+  "target_adaptation_batch_rule": "Nominal first-attempt batch is 64; adapt_head falls back to 32 then 16 only on CUDA OOM. adapt_head_once sets DataLoader batch_size=min(candidate_batch_size, len(dataset)). The completed final run recorded candidate 64 and zero OOM fallbacks for every nonzero budget.",
+  "target_adaptation_effective_batch_by_budget": {
+    "0_day": {
+      "samples": 0,
+      "effective_batch_size": 0,
+      "batches_per_epoch": 0,
+      "behavior": "Source-only; no target adaptation DataLoader or optimizer step"
+    },
+    "1_day": {
+      "samples": 1,
+      "effective_loader_batch_size": 1,
+      "batches_per_epoch": [1],
+      "behavior": "One batch containing the single sample in each of 50 epochs"
+    },
+    "3_day": {
+      "samples": 49,
+      "effective_loader_batch_size": 49,
+      "batches_per_epoch": [49],
+      "behavior": "One batch containing all 49 samples in each of 50 epochs"
+    },
+    "7_day": {
+      "samples": 145,
+      "effective_loader_batch_size": 64,
+      "batch_sizes_per_epoch": [64, 64, 17],
+      "behavior": "Three shuffled batches per epoch; final partial batch retained"
+    },
+    "14_day": {
+      "samples": 313,
+      "effective_loader_batch_size": 64,
+      "batch_sizes_per_epoch": [64, 64, 64, 64, 57],
+      "behavior": "Five shuffled batches per epoch; final partial batch retained"
+    },
+    "28_day": {
+      "samples": 649,
+      "effective_loader_batch_size": 64,
+      "batch_sizes_per_epoch": [64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 9],
+      "behavior": "Eleven shuffled batches per epoch; final partial batch retained"
+    }
+  },
+  "source_optimizer": "torch.optim.Adam(model.parameters(), lr=0.001)",
+  "target_adaptation_optimizer": "torch.optim.Adam(model.head.parameters(), lr=0.0005)",
+  "target_adaptation_epochs": 50,
+  "source_shuffle": true,
+  "source_drop_last": false,
+  "adaptation_shuffle": true,
+  "adaptation_drop_last": false,
+  "head_only_adaptation_verified": true,
+  "head_only_details": {
+    "lstm_frozen": true,
+    "freeze_implementation": "for parameter in model.lstm.parameters(): parameter.requires_grad = False",
+    "updated_parameter_set": "model.head.parameters() only",
+    "file": "scripts/run_bdg2_stage6_c0_lstm_v3.py",
+    "function": "adapt_head_once",
+    "lines": [234, 238, 239, 248]
+  },
+  "final_execution_path": {
+    "entrypoint": "scripts/final_v1/run_final_v1_gate2.py::main",
+    "import_evidence": "lines 32-37 import C0LSTM, Config, adapt_head, and predict from run_bdg2_stage6_c0_lstm_v3",
+    "frozen_checkpoint_evidence": "lines 73-76 declare checkpoint hashes; lines 143-146 verify them; lines 427-441 load each checkpoint and construct the source model",
+    "adaptation_call_evidence": "lines 476-490 construct final adaptation windows and call imported adapt_head",
+    "source_checkpoint_creation_path": "scripts/run_bdg2_stage6_c0_lstm_v3.py::main lines 359-380 calls fit_source and saves bdg2_stage6_c0_lstm_seed_{seed}_v3.pt"
+  },
+  "audited_execution_files": [
+    {
+      "path": "scripts/run_bdg2_stage6_c0_lstm_v3.py",
+      "sha256": "2c5f8204d37ca1b58efcf11086f90d5b91a134fb2a886fcb43e4e06e3037df7c"
+    },
+    {
+      "path": "scripts/bdg2_stage6_c0_common_v3.py",
+      "sha256": "85414e839953c2c93b95571c854dcb2a6350c23677af1ebe769bd17a03de3699"
+    },
+    {
+      "path": "scripts/final_v1/run_final_v1_gate2.py",
+      "sha256": "ea3941000cba7f5a72c8333652aff8f6b549e679af2ee780c188448eb09f9384"
+    },
+    {
+      "path": "models/bdg2_stage6_v3/bdg2_stage6_c0_lstm_seed_20260924_v3.pt",
+      "sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b"
+    },
+    {
+      "path": "models/bdg2_stage6_v3/bdg2_stage6_c0_lstm_config_v3.json",
+      "sha256": "9eccb94fcf2682e9a7a5ee205aa1ce250082dd6e7f7750337cb61ffed0ebe7d1"
+    },
+    {
+      "path": "reports/bdg2_stage6_c0_training_history_v3.csv",
+      "sha256": "98e4ab3e5bf99c3946d716390b82d0df69a813906b768cf6298bb7e72eba33a0"
+    },
+    {
+      "path": "reports/final_v1/gate2_run_config.json",
+      "sha256": "f4673ae71c9058faa32b6c85aeb1ef7cbb26cff43d415085887e00efb27b4468"
+    },
+    {
+      "path": "reports/final_v1/gate2_execution_metrics.csv",
+      "sha256": "b1dc60e772a135de439e9c3b5ba944fdbaea493a209e128691a4b8cbab722320"
+    },
+    {
+      "path": "reports/final_v1/GATE2_COMPLETE.json",
+      "sha256": "f4673ae71c9058faa32b6c85aeb1ef7cbb26cff43d415085887e00efb27b4468"
+    }
+  ],
+  "discrepancy_found": true,
+  "discrepancy": {
+    "scope": "metadata/documentation semantics only",
+    "detail": "The frozen config and gate2 execution metrics record adaptation_batch_size=64 as the successful candidate batch. The actual DataLoader batch is min(64, len(dataset)); therefore it is 1 for the 1-day budget and 49 for the 3-day budget. Treating the recorded 64 as the physical loader batch for those budgets would be incorrect.",
+    "effect_on_existing_predictions_or_results": "No. The predictions were generated by the dynamic DataLoader rule in the audited code. This affects manuscript/config interpretation, not the completed numerical outputs.",
+    "other_conflicts": "None identified for loss functions, source batch 256, Adam learning rates, 50 adaptation epochs, shuffle behavior, drop_last behavior, or head-only parameter updates. Existing narrative reports do not directly state the loss class or the dynamic adaptation batch rule."
+  },
+  "manuscript_ready_values": {
+    "source_training_loss": "Mean squared error (torch.nn.MSELoss, mean reduction) on source-normalized targets",
+    "target_adaptation_loss": "Mean squared error (torch.nn.MSELoss, mean reduction) on source-normalized targets; same as source training",
+    "source_batch_size": "256, with OOM-only fallbacks 128 and 64; completed run used 256 for all three seeds; drop_last=False",
+    "target_adaptation_batch_size_rule": "min(64, number of adaptation samples), with OOM-only candidate fallbacks 32 and 16; completed run had no OOM fallback; drop_last=False"
+  },
+  "unverified": []
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "platform_kind": "rtx",
+  "phase": "cooldown",
+  "requested_duration_seconds": 60.0,
+  "observed_duration_seconds": 60.00567949999822,
+  "sampler_command": [
+    "C:\\WINDOWS\\system32\\nvidia-smi.EXE",
+    "--query-gpu=timestamp,power.draw,temperature.gpu,utilization.gpu,memory.used,clocks.sm,clocks.mem",
+    "--format=csv,noheader,nounits",
+    "--loop-ms=1000"
+  ],
+  "iterations_completed": 0,
+  "batch_size": null,
+  "precision": null,
+  "output_shape": null,
+  "nan_count": 0,
+  "inf_count": 0,
+  "checkpoint_sha256": null,
+  "model_audit": null
+}

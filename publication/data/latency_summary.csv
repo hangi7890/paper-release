@@ -1,0 +1,5 @@
+device,mode,mean_ms,median_ms,p95_ms,p99_ms
+Jetson Orin Nano,Model-only,0.690587,0.675552,0.731138,0.960481
+RTX 3080,Model-only,0.205226,0.171072,0.354354,0.885665
+Jetson Orin Nano,End-to-end,0.932956,0.883082,0.937253,0.976195
+RTX 3080,End-to-end,0.33738,0.2326,0.91283,2.373438

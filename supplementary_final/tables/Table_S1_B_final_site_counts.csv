@@ -1,0 +1,10 @@
+site_id,proposed_buildings,retained_buildings,excluded_buildings,retained_site
+Bobcat,23,22,1,True
+Bull,122,111,11,True
+Eagle,104,94,10,True
+Gator,67,63,4,True
+Hog,147,135,12,True
+Moose,13,10,3,True
+Mouse,7,0,7,False
+Shrew,9,0,9,False
+Swan,18,18,0,True

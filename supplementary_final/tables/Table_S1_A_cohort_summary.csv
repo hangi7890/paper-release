@@ -1,0 +1,5 @@
+cohort,purpose,buildings,sites
+Source,Source pretraining/model selection,20,4
+Development,Development adaptation and evaluation,12,6
+Final proposed,Frozen final-test proposal before quality exclusion,510,9
+Final retained,Independent final evaluation,453,7

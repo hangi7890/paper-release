@@ -1,0 +1,46 @@
+{
+  "schema_version": "e1_c0_features_v1",
+  "tensor_shape": ["batch_size", 24, 6],
+  "row_alignment": "For row h=0..23, feature 0 is electricity at forecast_start-24h+h and features 1..5 describe forecast_start+h.",
+  "calendar_timestamp_basis": "forecast target timestamp",
+  "future_observed_values_used": false,
+  "features": [
+    {
+      "index": 0,
+      "name": "past_electricity_normalized",
+      "definition": "Source-normalized observed electricity from the 24 hours ending one hour before forecast_start.",
+      "timestamp_basis": "historical input timestamp"
+    },
+    {
+      "index": 1,
+      "name": "target_hour_sin",
+      "definition": "sin(2*pi*target_hour/24)",
+      "timestamp_basis": "forecast target timestamp"
+    },
+    {
+      "index": 2,
+      "name": "target_hour_cos",
+      "definition": "cos(2*pi*target_hour/24)",
+      "timestamp_basis": "forecast target timestamp"
+    },
+    {
+      "index": 3,
+      "name": "target_weekday_sin",
+      "definition": "sin(2*pi*target_day_of_week/7), Monday=0",
+      "timestamp_basis": "forecast target timestamp"
+    },
+    {
+      "index": 4,
+      "name": "target_weekday_cos",
+      "definition": "cos(2*pi*target_day_of_week/7), Monday=0",
+      "timestamp_basis": "forecast target timestamp"
+    },
+    {
+      "index": 5,
+      "name": "target_weekend",
+      "definition": "1 when target day_of_week >= 5, otherwise 0",
+      "timestamp_basis": "forecast target timestamp"
+    }
+  ]
+}
+

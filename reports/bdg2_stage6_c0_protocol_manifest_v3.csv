@@ -1,0 +1,93 @@
+﻿building_id,site_id,alternative_group,role,adaptation_days,train_samples,validation_samples,test_windows,test_target_start,test_target_end,input_condition,sequence_length,input_features_per_step,output_hours,future_observed_values_used,final_test_power_used
+Bear_education_Bob,Bear,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_education_Bob,Bear,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_education_Bob,Bear,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_education_Bob,Bear,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_education_Bob,Bear,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_education_Bob,Bear,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_public_Jocelyn,Bear,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_public_Jocelyn,Bear,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_public_Jocelyn,Bear,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_public_Jocelyn,Bear,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_public_Jocelyn,Bear,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Bear_public_Jocelyn,Bear,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Cockatoo_assembly_Griselda,Cockatoo,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_assembly_Griselda,Cockatoo,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_assembly_Griselda,Cockatoo,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_assembly_Griselda,Cockatoo,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_assembly_Griselda,Cockatoo,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_assembly_Griselda,Cockatoo,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_education_Doreen,Cockatoo,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_education_Doreen,Cockatoo,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_education_Doreen,Cockatoo,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_education_Doreen,Cockatoo,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_education_Doreen,Cockatoo,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Cockatoo_education_Doreen,Cockatoo,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2016-09-27 12:00:00,2016-10-25 11:00:00,C0,24,6,24,False,False
+Fox_education_Henrietta,Fox,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_education_Henrietta,Fox,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_education_Henrietta,Fox,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_education_Henrietta,Fox,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_education_Henrietta,Fox,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_education_Henrietta,Fox,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_lodging_Helen,Fox,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_lodging_Helen,Fox,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_lodging_Helen,Fox,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_lodging_Helen,Fox,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_lodging_Helen,Fox,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Fox_lodging_Helen,Fox,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-12-04 00:00:00,2017-12-31 23:00:00,C0,24,6,24,False,False
+Lamb_assembly_Cherie,Lamb,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False
+Lamb_education_Armando,Lamb,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False
+Lamb_health_Ken,Lamb,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False
+Lamb_industrial_Carla,Lamb,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False
+Lamb_office_Bertha,Lamb,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False
+Panther_education_Scarlett,Panther,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_education_Scarlett,Panther,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_education_Scarlett,Panther,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_education_Scarlett,Panther,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_education_Scarlett,Panther,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_education_Scarlett,Panther,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_office_Clementine,Panther,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_office_Clementine,Panther,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_office_Clementine,Panther,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_office_Clementine,Panther,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_office_Clementine,Panther,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Panther_office_Clementine,Panther,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-01-17 20:00:00,2017-02-14 19:00:00,C0,24,6,24,False,False
+Wolf_education_Cheryl,Wolf,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_education_Cheryl,Wolf,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_education_Cheryl,Wolf,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_education_Cheryl,Wolf,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_education_Cheryl,Wolf,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_education_Cheryl,Wolf,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_office_Darleen,Wolf,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_office_Darleen,Wolf,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_office_Darleen,Wolf,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_office_Darleen,Wolf,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_office_Darleen,Wolf,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Wolf_office_Darleen,Wolf,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-10-01 09:00:00,2017-10-29 08:00:00,C0,24,6,24,False,False
+Crow_education_Kate,Crow,source_train_proposal,source_train_validation,,3273,649,,,,C0,24,6,24,False,False
+Crow_education_Keisha,Crow,source_train_proposal,source_train_validation,,4939,649,,,,C0,24,6,24,False,False
+Crow_education_Marlin,Crow,source_train_proposal,source_train_validation,,5447,649,,,,C0,24,6,24,False,False
+Crow_education_Omer,Crow,source_train_proposal,source_train_validation,,6033,649,,,,C0,24,6,24,False,False
+Crow_education_Winston,Crow,source_train_proposal,source_train_validation,,3945,649,,,,C0,24,6,24,False,False
+Peacock_education_Robbie,Peacock,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_education_Robbie,Peacock,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_education_Robbie,Peacock,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_education_Robbie,Peacock,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_education_Robbie,Peacock,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_education_Robbie,Peacock,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_lodging_Lou,Peacock,development_validation_proposal,development_adaptation_evaluation,0,0,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_lodging_Lou,Peacock,development_validation_proposal,development_adaptation_evaluation,1,1,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_lodging_Lou,Peacock,development_validation_proposal,development_adaptation_evaluation,3,49,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_lodging_Lou,Peacock,development_validation_proposal,development_adaptation_evaluation,7,145,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_lodging_Lou,Peacock,development_validation_proposal,development_adaptation_evaluation,14,313,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Peacock_lodging_Lou,Peacock,development_validation_proposal,development_adaptation_evaluation,28,649,0,28,2017-02-12 02:00:00,2017-03-12 01:00:00,C0,24,6,24,False,False
+Rat_education_Kathryn,Rat,source_train_proposal,source_train_validation,,6358,649,,,,C0,24,6,24,False,False
+Rat_office_Colby,Rat,source_train_proposal,source_train_validation,,4991,649,,,,C0,24,6,24,False,False
+Rat_public_Kimber,Rat,source_train_proposal,source_train_validation,,4990,649,,,,C0,24,6,24,False,False
+Rat_retail_Jeffrey,Rat,source_train_proposal,source_train_validation,,4990,649,,,,C0,24,6,24,False,False
+Rat_warehouse_Doretta,Rat,source_train_proposal,source_train_validation,,4990,649,,,,C0,24,6,24,False,False
+Robin_assembly_Colleen,Robin,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False
+Robin_education_Audrea,Robin,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False
+Robin_lodging_Armand,Robin,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False
+Robin_office_Addie,Robin,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False
+Robin_public_Cami,Robin,source_train_proposal,source_train_validation,,16825,649,,,,C0,24,6,24,False,False

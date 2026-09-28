@@ -1,0 +1,16 @@
+﻿Configuration,Source pretraining,Target adaptation
+Historical electricity input / forecast horizon,24 h / 24 h,24 h / 24 h
+Input tensor per sample,24 × 6,24 × 6
+Input representation,Historical electricity plus five deterministic target-horizon calendar variables,Same representation
+Calendar variables,Hour sine/cosine; weekday sine/cosine; weekend indicator,Same representation
+Architecture,"Single-layer LSTM, hidden size 32; linear 24-output head",Same architecture
+Updated parameters,Full network,Linear forecasting head only; LSTM frozen
+Parameters at inference,"5,912","5,912"
+Loss,MSE on source-normalized targets; mean reduction,Same loss
+Optimizer / learning rate,Adam / 0.001,Adam / 0.0005
+Epoch limit / early stopping,100 / patience 10,50 / none
+Model selection / validation,Chronologically separated source-validation data,No target-specific validation split
+Training / validation windows,"218,206 / 12,980",Budget-dependent / not applicable
+Batch size,256 in the completed run,"Nominal maximum 64; effective size min(64, N)"
+DataLoader settings,shuffle=True; drop_last=False,shuffle=True; drop_last=False
+Random seeds,"20260924, 20260925, 20260926",Same three seeds

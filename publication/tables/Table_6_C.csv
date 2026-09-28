@@ -1,0 +1,8 @@
+﻿Category,Metric,Jetson Orin Nano,RTX 3080
+Power,Measurement boundary,tegrastats VDD_IN input rail,nvidia-smi GPU board power
+Power,Idle reported power (W),3.146,63.373
+Power,Sustained reported power (W),4.031,70.422
+Power,Peak reported power (W),4.032,123.660
+GPU temperature,Initial telemetry value (°C),49.750,61.000
+GPU temperature,Sustained mean (°C),50.329,60.600
+GPU temperature,Peak (°C),50.843,63.000

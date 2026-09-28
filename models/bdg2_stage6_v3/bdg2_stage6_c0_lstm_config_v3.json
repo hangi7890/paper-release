@@ -1,0 +1,419 @@
+{
+  "status": "complete",
+  "input_condition": "C0",
+  "feature_names": [
+    "past_electricity_normalized",
+    "target_hour_sin",
+    "target_hour_cos",
+    "target_weekday_sin",
+    "target_weekday_cos",
+    "target_weekend"
+  ],
+  "calendar_alignment": "row h pairs past power lag h with deterministic target calendar horizon h",
+  "future_observed_values_used": false,
+  "fixed_hyperparameters_from_v2_except_input_size": true,
+  "config": {
+    "sequence_length": 24,
+    "input_size": 6,
+    "target_hours": 24,
+    "hidden_size": 32,
+    "num_layers": 1,
+    "source_learning_rate": 0.001,
+    "source_batch_size": 256,
+    "source_max_epochs": 100,
+    "source_patience": 10,
+    "source_min_delta": 1e-05,
+    "adaptation_learning_rate": 0.0005,
+    "adaptation_epochs": 50,
+    "adaptation_batch_size": 64
+  },
+  "seeds": [
+    20260924,
+    20260925,
+    20260926
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "torch": "2.11.0+cu128",
+    "cuda_runtime": "12.8",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 3080",
+  "source_buildings": [
+    "Crow_education_Kate",
+    "Crow_education_Keisha",
+    "Crow_education_Marlin",
+    "Crow_education_Omer",
+    "Crow_education_Winston",
+    "Lamb_assembly_Cherie",
+    "Lamb_education_Armando",
+    "Lamb_health_Ken",
+    "Lamb_industrial_Carla",
+    "Lamb_office_Bertha",
+    "Rat_education_Kathryn",
+    "Rat_office_Colby",
+    "Rat_public_Kimber",
+    "Rat_retail_Jeffrey",
+    "Rat_warehouse_Doretta",
+    "Robin_assembly_Colleen",
+    "Robin_education_Audrea",
+    "Robin_lodging_Armand",
+    "Robin_office_Addie",
+    "Robin_public_Cami"
+  ],
+  "development_buildings": [
+    "Bear_education_Bob",
+    "Bear_public_Jocelyn",
+    "Cockatoo_assembly_Griselda",
+    "Cockatoo_education_Doreen",
+    "Fox_education_Henrietta",
+    "Fox_lodging_Helen",
+    "Panther_education_Scarlett",
+    "Panther_office_Clementine",
+    "Peacock_education_Robbie",
+    "Peacock_lodging_Lou",
+    "Wolf_education_Cheryl",
+    "Wolf_office_Darleen"
+  ],
+  "source_training_samples": 218206,
+  "source_validation_samples": 12980,
+  "source_ranges": [
+    {
+      "building_id": "Crow_education_Kate",
+      "phase": "train",
+      "samples": 3273,
+      "target_start": "2016-09-27 17:00:00",
+      "target_end": "2017-02-12 00:00:00"
+    },
+    {
+      "building_id": "Crow_education_Kate",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-02-12 01:00:00",
+      "target_end": "2017-03-12 00:00:00"
+    },
+    {
+      "building_id": "Crow_education_Keisha",
+      "phase": "train",
+      "samples": 4939,
+      "target_start": "2017-03-15 07:00:00",
+      "target_end": "2017-10-08 00:00:00"
+    },
+    {
+      "building_id": "Crow_education_Keisha",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-10-08 01:00:00",
+      "target_end": "2017-11-05 00:00:00"
+    },
+    {
+      "building_id": "Crow_education_Marlin",
+      "phase": "train",
+      "samples": 5447,
+      "target_start": "2017-03-13 02:00:00",
+      "target_end": "2017-10-26 23:00:00"
+    },
+    {
+      "building_id": "Crow_education_Marlin",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-10-27 00:00:00",
+      "target_end": "2017-11-23 23:00:00"
+    },
+    {
+      "building_id": "Crow_education_Omer",
+      "phase": "train",
+      "samples": 6033,
+      "target_start": "2016-03-14 02:00:00",
+      "target_end": "2016-11-21 09:00:00"
+    },
+    {
+      "building_id": "Crow_education_Omer",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2016-11-21 10:00:00",
+      "target_end": "2016-12-19 09:00:00"
+    },
+    {
+      "building_id": "Crow_education_Winston",
+      "phase": "train",
+      "samples": 3945,
+      "target_start": "2016-08-30 17:00:00",
+      "target_end": "2017-02-12 00:00:00"
+    },
+    {
+      "building_id": "Crow_education_Winston",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-02-12 01:00:00",
+      "target_end": "2017-03-12 00:00:00"
+    },
+    {
+      "building_id": "Lamb_assembly_Cherie",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Lamb_assembly_Cherie",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Lamb_education_Armando",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Lamb_education_Armando",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Lamb_health_Ken",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Lamb_health_Ken",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Lamb_industrial_Carla",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Lamb_industrial_Carla",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Lamb_office_Bertha",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Lamb_office_Bertha",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Rat_education_Kathryn",
+      "phase": "train",
+      "samples": 6358,
+      "target_start": "2017-03-13 03:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Rat_education_Kathryn",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Rat_office_Colby",
+      "phase": "train",
+      "samples": 4991,
+      "target_start": "2017-03-13 03:00:00",
+      "target_end": "2017-10-08 00:00:00"
+    },
+    {
+      "building_id": "Rat_office_Colby",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-10-08 01:00:00",
+      "target_end": "2017-11-05 00:00:00"
+    },
+    {
+      "building_id": "Rat_public_Kimber",
+      "phase": "train",
+      "samples": 4990,
+      "target_start": "2016-03-14 03:00:00",
+      "target_end": "2016-10-08 23:00:00"
+    },
+    {
+      "building_id": "Rat_public_Kimber",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2016-10-09 00:00:00",
+      "target_end": "2016-11-05 23:00:00"
+    },
+    {
+      "building_id": "Rat_retail_Jeffrey",
+      "phase": "train",
+      "samples": 4990,
+      "target_start": "2016-03-14 03:00:00",
+      "target_end": "2016-10-08 23:00:00"
+    },
+    {
+      "building_id": "Rat_retail_Jeffrey",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2016-10-09 00:00:00",
+      "target_end": "2016-11-05 23:00:00"
+    },
+    {
+      "building_id": "Rat_warehouse_Doretta",
+      "phase": "train",
+      "samples": 4990,
+      "target_start": "2016-03-14 03:00:00",
+      "target_end": "2016-10-08 23:00:00"
+    },
+    {
+      "building_id": "Rat_warehouse_Doretta",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2016-10-09 00:00:00",
+      "target_end": "2016-11-05 23:00:00"
+    },
+    {
+      "building_id": "Robin_assembly_Colleen",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Robin_assembly_Colleen",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Robin_education_Audrea",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Robin_education_Audrea",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Robin_lodging_Armand",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Robin_lodging_Armand",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Robin_office_Addie",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Robin_office_Addie",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    },
+    {
+      "building_id": "Robin_public_Cami",
+      "phase": "train",
+      "samples": 16825,
+      "target_start": "2016-01-02 00:00:00",
+      "target_end": "2017-12-03 23:00:00"
+    },
+    {
+      "building_id": "Robin_public_Cami",
+      "phase": "validation",
+      "samples": 649,
+      "target_start": "2017-12-04 00:00:00",
+      "target_end": "2017-12-31 23:00:00"
+    }
+  ],
+  "source_normalization": {
+    "mean": 167.0651976323119,
+    "std_population": 354.328669571624,
+    "computed_from": "source training past-power X and target y only",
+    "calendar_features_scaled": false
+  },
+  "hashes": {
+    "raw": "039d909d8981e2d69eaeb366144e6ab7e84fa5e7e216aee42bddd95384a66418",
+    "cohort_manifest_v2": "59f4128ebd0a594e60c410c8ae6af48fdd674422553d9e47e4c771195c0bf23b",
+    "temporal_manifest_v2": "6dd57dadf2aaae9e565a870784d2ced3482c1466156e1c691a3149bee3ff8f1b",
+    "c0_protocol_v3": "7c9c4b868ae9a89d8183454b2d10bf1cb3123489469f0b7384c3841a5d4b211f"
+  },
+  "final_test_power_read": false,
+  "completed_seeds": 3,
+  "checkpoints": [
+    {
+      "seed": 20260924,
+      "path": ".\\models\\bdg2_stage6_v3\\bdg2_stage6_c0_lstm_seed_20260924_v3.pt",
+      "sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b",
+      "best_epoch": 33,
+      "best_source_validation_mse_normalized": 0.025498439632566636,
+      "batch_size": 256,
+      "oom_errors": []
+    },
+    {
+      "seed": 20260925,
+      "path": ".\\models\\bdg2_stage6_v3\\bdg2_stage6_c0_lstm_seed_20260925_v3.pt",
+      "sha256": "202a610bc6f4c89c32335b674e80f372c03699c3df33c22e30bfae80b8f951f5",
+      "best_epoch": 49,
+      "best_source_validation_mse_normalized": 0.02521064681277008,
+      "batch_size": 256,
+      "oom_errors": []
+    },
+    {
+      "seed": 20260926,
+      "path": ".\\models\\bdg2_stage6_v3\\bdg2_stage6_c0_lstm_seed_20260926_v3.pt",
+      "sha256": "708e3321db56f8828a5c59b8cfdbbf02c4b31feff9d1659d1be55d7a61e20d89",
+      "best_epoch": 19,
+      "best_source_validation_mse_normalized": 0.02552641586089171,
+      "batch_size": 256,
+      "oom_errors": []
+    }
+  ],
+  "errors": [],
+  "elapsed_seconds": 503.8295838832855,
+  "failures": [],
+  "outputs": {
+    ".\\reports\\bdg2_stage6_c0_source_only_metrics_v3.csv": "215113f201f33e25a7a7e0c3f59f80f8dde20d76649332224305e7d88f1906dc",
+    ".\\reports\\bdg2_stage6_c0_source_only_predictions_v3.csv": "91d8658b67527bfb9389ce9da359699f3688711123ea246fd5236405cd071287",
+    ".\\reports\\bdg2_stage6_c0_adaptation_metrics_v3.csv": "e6d4a64a154c39bcec74f19107a72931447612bbf842b1a2e54059c29d58e4aa",
+    ".\\reports\\bdg2_stage6_c0_adaptation_predictions_v3.csv": "a7455a3406b5028704a376855f2d5f06208c0a73b72b92d67d41f56e06b4d0c1",
+    ".\\reports\\bdg2_stage6_c0_training_history_v3.csv": "98e4ab3e5bf99c3946d716390b82d0df69a813906b768cf6298bb7e72eba33a0",
+    ".\\reports\\bdg2_stage6_c0_failures_v3.csv": "fd20e9e38b91cc25bdc8d0ca564949892ea28796a45f39fc6f5422f9251c8d08",
+    ".\\reports\\bdg2_stage6_c0_lstm_results_v3.md": "a76d299c83e94759d026f2610eb4542eaf3eff05afef3ac63ac82f6210d764eb"
+  }
+}

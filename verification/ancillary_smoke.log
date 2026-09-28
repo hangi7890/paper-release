@@ -1,0 +1,6 @@
+PASS | workspace helper resolves release root
+Prepared snapshot workspace. No experiment executed. See README for required external inputs.
+PASS | main table builder imports without missing local module
+PASS | Supplementary data/table reconstruction without checkpoints
+PASS | Data S17 original gap retained
+Table import and supplementary saved-result reconstruction only; no DOCX authored or model executed.

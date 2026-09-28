@@ -1,0 +1,192 @@
+{
+  "status": "PASS",
+  "device": "Orin",
+  "runtime": "PyTorch 2.11.0, CUDA 12.6",
+  "precision": "FP32",
+  "batch_size": 1,
+  "parameters": 5912,
+  "input_shape": [
+    1,
+    24,
+    6
+  ],
+  "output_shape": [
+    1,
+    24
+  ],
+  "warmup_per_mode": 200,
+  "runs": 5,
+  "inferences_per_run": 1000,
+  "stabilization_seconds_between_runs": 1.0,
+  "outliers_removed": false,
+  "model_only_timing": "CUDA events; input already on CUDA; output retained on CUDA",
+  "end_to_end_timing": "perf_counter_ns; CPU RAM to CUDA, forward, output to CPU, CUDA synchronization",
+  "model_only": {
+    "overall": {
+      "count": 5000,
+      "mean_ms": 0.6905867454230785,
+      "std_ms": 0.08047373444241353,
+      "median_ms": 0.6755520105361938,
+      "p90_ms": 0.7158751904964448,
+      "p95_ms": 0.7311376214027405,
+      "p99_ms": 0.9604809349775315,
+      "minimum_ms": 0.39347198605537415,
+      "maximum_ms": 4.994783878326416
+    },
+    "by_run": [
+      {
+        "run_id": 1,
+        "count": 1000,
+        "mean_ms": 0.7306060477793217,
+        "std_ms": 0.1687214201002355,
+        "median_ms": 0.6824640035629272,
+        "p90_ms": 0.9550463795661926,
+        "p95_ms": 0.9604799747467041,
+        "p99_ms": 0.975460479259491,
+        "minimum_ms": 0.39347198605537415,
+        "maximum_ms": 4.994783878326416
+      },
+      {
+        "run_id": 2,
+        "count": 1000,
+        "mean_ms": 0.6812973757982254,
+        "std_ms": 0.020170370965245252,
+        "median_ms": 0.6750880181789398,
+        "p90_ms": 0.7116479754447937,
+        "p95_ms": 0.7218575984239578,
+        "p99_ms": 0.7385411328077316,
+        "minimum_ms": 0.6395840048789978,
+        "maximum_ms": 0.8369280099868774
+      },
+      {
+        "run_id": 3,
+        "count": 1000,
+        "mean_ms": 0.6817804473042488,
+        "std_ms": 0.026790834459737435,
+        "median_ms": 0.6755840182304382,
+        "p90_ms": 0.7118655741214752,
+        "p95_ms": 0.7195535808801651,
+        "p99_ms": 0.7327494317293167,
+        "minimum_ms": 0.6342719793319702,
+        "maximum_ms": 1.2872960567474365
+      },
+      {
+        "run_id": 4,
+        "count": 1000,
+        "mean_ms": 0.67866031986475,
+        "std_ms": 0.01840138607870803,
+        "median_ms": 0.6734879910945892,
+        "p90_ms": 0.7072287857532501,
+        "p95_ms": 0.7147520184516907,
+        "p99_ms": 0.7389817619323731,
+        "minimum_ms": 0.6424959897994995,
+        "maximum_ms": 0.7735679745674133
+      },
+      {
+        "run_id": 5,
+        "count": 1000,
+        "mean_ms": 0.6805895363688469,
+        "std_ms": 0.021033704814424743,
+        "median_ms": 0.6745280027389526,
+        "p90_ms": 0.7111455857753753,
+        "p95_ms": 0.7190431773662567,
+        "p99_ms": 0.7473849511146545,
+        "minimum_ms": 0.6462399959564209,
+        "maximum_ms": 0.8666560053825378
+      }
+    ]
+  },
+  "end_to_end": {
+    "overall": {
+      "count": 5000,
+      "mean_ms": 0.9329564386000002,
+      "std_ms": 2.7582061534550513,
+      "median_ms": 0.883082,
+      "p90_ms": 0.927259,
+      "p95_ms": 0.9372526000000001,
+      "p99_ms": 0.9761950800000001,
+      "minimum_ms": 0.841401,
+      "maximum_ms": 195.884742
+    },
+    "by_run": [
+      {
+        "run_id": 1,
+        "count": 1000,
+        "mean_ms": 0.890921665,
+        "std_ms": 0.021944003008903708,
+        "median_ms": 0.88409,
+        "p90_ms": 0.9234254,
+        "p95_ms": 0.9330542,
+        "p99_ms": 0.9530196799999999,
+        "minimum_ms": 0.845977,
+        "maximum_ms": 1.010493
+      },
+      {
+        "run_id": 2,
+        "count": 1000,
+        "mean_ms": 0.893200415,
+        "std_ms": 0.08070990625571792,
+        "median_ms": 0.8826335000000001,
+        "p90_ms": 0.9250862,
+        "p95_ms": 0.9337902,
+        "p99_ms": 0.9686001599999999,
+        "minimum_ms": 0.847641,
+        "maximum_ms": 3.325057
+      },
+      {
+        "run_id": 3,
+        "count": 1000,
+        "mean_ms": 0.895156972,
+        "std_ms": 0.07104209388148139,
+        "median_ms": 0.8821055,
+        "p90_ms": 0.9303415,
+        "p95_ms": 0.94076875,
+        "p99_ms": 0.98074032,
+        "minimum_ms": 0.841401,
+        "maximum_ms": 2.867764
+      },
+      {
+        "run_id": 4,
+        "count": 1000,
+        "mean_ms": 0.8903772160000001,
+        "std_ms": 0.06693145599926348,
+        "median_ms": 0.8812255,
+        "p90_ms": 0.9228942,
+        "p95_ms": 0.9310078,
+        "p99_ms": 0.9587336,
+        "minimum_ms": 0.84428,
+        "maximum_ms": 2.87986
+      },
+      {
+        "run_id": 5,
+        "count": 1000,
+        "mean_ms": 1.095125925,
+        "std_ms": 6.163529451689968,
+        "median_ms": 0.885418,
+        "p90_ms": 0.9345646000000001,
+        "p95_ms": 0.9461528,
+        "p99_ms": 0.99820183,
+        "minimum_ms": 0.853657,
+        "maximum_ms": 195.884742
+      }
+    ]
+  },
+  "checkpoint_sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b",
+  "model_audit": {
+    "checkpoint_sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b",
+    "strict_state_dict_load": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "parameter_count": 5912,
+    "parameter_dtypes": [
+      "torch.float32"
+    ],
+    "input_dimension": 6,
+    "sequence_length": 24,
+    "output_horizon": 24,
+    "model_training_mode": false,
+    "model_modified": false
+  },
+  "nan_count": 0,
+  "inf_count": 0
+}

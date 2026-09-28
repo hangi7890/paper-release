@@ -1,0 +1,16 @@
+{
+  "schema_version": "e2_fp32_numerical_acceptance_v1",
+  "frozen_before_jetson_execution": true,
+  "forecast_accuracy_threshold": false,
+  "shape_exact": true,
+  "nan_count": 0,
+  "inf_count": 0,
+  "normalized": {
+    "max_absolute_difference_lte": 0.0001,
+    "mean_absolute_difference_lte": 2e-05
+  },
+  "physical": {
+    "max_absolute_difference_lte": 0.05,
+    "mean_absolute_difference_lte": 0.01
+  }
+}

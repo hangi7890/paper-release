@@ -1,0 +1,9 @@
+{
+  "device": "NVIDIA GeForce RTX 3080",
+  "cuda_memory_allocated_bytes": 9596928,
+  "cuda_memory_reserved_bytes": 23068672,
+  "cuda_max_memory_allocated_bytes": 18076672,
+  "cuda_max_memory_reserved_bytes": 23068672,
+  "rss_current_bytes": null,
+  "rss_peak_bytes": null
+}

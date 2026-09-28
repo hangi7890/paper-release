@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "python_files_parsed": 48,
+  "local_imports_unresolved": [],
+  "privacy_findings": [],
+  "issues": [],
+  "scan_scope": "all released text files, standard token/private path patterns; no claim of exhaustive privacy proof",
+  "source_preservation_checked": true
+}

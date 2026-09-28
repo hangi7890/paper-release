@@ -1,0 +1,23 @@
+[
+  {
+    "path": "models/bdg2_stage6_v3/bdg2_stage6_c0_lstm_seed_20260924_v3.pt",
+    "size_bytes": 27861,
+    "sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b",
+    "included": false,
+    "reason": "external raw dataset / checkpoint / full prediction archive; deliberately not redistributed"
+  },
+  {
+    "path": "models/bdg2_stage6_v3/bdg2_stage6_c0_lstm_seed_20260925_v3.pt",
+    "size_bytes": 27861,
+    "sha256": "202a610bc6f4c89c32335b674e80f372c03699c3df33c22e30bfae80b8f951f5",
+    "included": false,
+    "reason": "external raw dataset / checkpoint / full prediction archive; deliberately not redistributed"
+  },
+  {
+    "path": "models/bdg2_stage6_v3/bdg2_stage6_c0_lstm_seed_20260926_v3.pt",
+    "size_bytes": 27861,
+    "sha256": "708e3321db56f8828a5c59b8cfdbbf02c4b31feff9d1659d1be55d7a61e20d89",
+    "included": false,
+    "reason": "external raw dataset / checkpoint / full prediction archive; deliberately not redistributed"
+  }
+]

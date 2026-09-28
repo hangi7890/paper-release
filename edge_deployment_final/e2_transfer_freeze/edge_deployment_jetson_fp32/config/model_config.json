@@ -1,0 +1,22 @@
+{
+  "model_name": "BDG2 final_v1 canonical C0 LSTM",
+  "model_class": "C0LSTM",
+  "model_family": "LSTM direct multi-horizon forecaster",
+  "seed": 20260924,
+  "input_sequence_length": 24,
+  "input_dimension": 6,
+  "output_horizon": 24,
+  "hidden_dimension": 32,
+  "num_layers": 1,
+  "dropout": 0.0,
+  "batch_first": true,
+  "head_definition": "Linear(in_features=32, out_features=24, bias=True)",
+  "output_activation": null,
+  "parameter_count": 5912,
+  "trainable_parameter_count_source_checkpoint": 5912,
+  "dtype": "float32",
+  "checkpoint_filename": "bdg2_stage6_c0_lstm_seed_20260924_v3.pt",
+  "checkpoint_serialization": "PyTorch metadata dictionary containing model_state_dict",
+  "checkpoint_sha256": "88eb3173435a5ea728e9490ad7139485162ad9c6ff4bce9019b1eb4121b4908b"
+}
+

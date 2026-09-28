@@ -1,0 +1,9 @@
+﻿Category,Verification,Result,Status
+Execution completeness,Stored final predictions and execution errors,"6,088,320 rows; 0 errors",PASS
+Independent metric verification,Maximum stored-versus-recalculated metric difference,1.71 × 10⁻¹³; tolerance 10⁻¹⁰,PASS
+Prediction validity,Unavailable predictions / abnormal metric status,0 / 0,PASS
+Information boundary,Evaluation-period observations used for exploratory characteristics,None; all cutoffs preceded evaluation,PASS
+Protocol stability,"Post-run changes to settings, buildings, periods, seeds, learning rate, or epochs",None,PASS
+Prediction preservation,Raw predictions regenerated after inspecting performance,No,PASS
+Exploratory addendum,Missing usage metadata for 18 Swan buildings,"Exploratory outputs corrected; predictions, metrics, F1–F4 and H1–H3 unchanged",Documented / resolved
+Training-configuration audit,Executed loss and batching versus reported configuration,No result-affecting discrepancy identified,PASS

@@ -1,0 +1,8 @@
+﻿Consistency check,Observed value,Prespecified limit,Result
+64-vector output shape,64 × 24,Exact match,PASS
+Output elements / NaN / Inf,"1,536 / 0 / 0",No NaN or Inf,PASS
+Normalized maximum absolute difference,1.4782 × 10⁻⁵,≤1 × 10⁻⁴,PASS
+Normalized mean absolute difference,1.4947 × 10⁻⁶,≤2 × 10⁻⁵,PASS
+Original-scale maximum absolute difference,0.005238,≤0.05,PASS
+Original-scale mean absolute difference,0.000530,≤0.01,PASS
+Pre-/post-benchmark gates on each device,Identical acceptance outcomes,Frozen criteria,PASS

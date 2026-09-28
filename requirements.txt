@@ -1,0 +1,8 @@
+# Portable analysis/rendering dependencies. Original training versions: configs/runtime_record.json.
+numpy>=2.3,<3
+pandas>=2.3,<4
+Pillow>=12,<13
+matplotlib>=3.10,<4
+python-docx>=1.2,<2
+# Install PyTorch separately for the actual host/CUDA/Jetson environment.
+# Frozen experiment used torch 2.11.0+cu128; Jetson used 2.11.0 / CUDA 12.6.

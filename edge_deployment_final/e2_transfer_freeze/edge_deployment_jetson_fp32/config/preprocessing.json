@@ -1,0 +1,21 @@
+{
+  "schema_version": "e1_preprocessing_v1",
+  "electricity_normalization": {
+    "mean": 167.0651976323119,
+    "population_std": 354.328669571624,
+    "equation": "x_normalized = (x_physical - mean) / population_std",
+    "computed_from": "Source training past-power X and target y only",
+    "final_or_test_data_used": false,
+    "epsilon_used": false,
+    "clipping_used": false
+  },
+  "calendar_features_scaled": false,
+  "model_output_scale": "normalized electricity",
+  "output_inverse_transformation": {
+    "equation": "y_physical = y_normalized * population_std + mean",
+    "procedure": "Convert model output to NumPy float64, multiply by population_std, then add mean.",
+    "clipping_used": false
+  },
+  "timestamp_policy": "timezone-naive timestamps preserved exactly; no timezone or DST conversion in E1"
+}
+

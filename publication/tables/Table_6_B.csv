@@ -1,0 +1,14 @@
+﻿Category,Metric,Jetson Orin Nano,RTX 3080
+Model,Parameters / precision / batch,"5,912 / FP32 / 1","5,912 / FP32 / 1"
+Runtime,PyTorch / PyTorch CUDA,2.11.0 / 12.6,2.11.0+cu128 / 12.8
+Model-only,Mean (ms),0.6906,0.2052
+Model-only,Median (ms),0.6756,0.1711
+Model-only,P95 (ms),0.7311,0.3544
+Model-only,P99 (ms),0.9605,0.8857
+End-to-end,Mean (ms),0.9330,0.3374
+End-to-end,Median (ms),0.8831,0.2326
+End-to-end,P95 (ms),0.9373,0.9128
+End-to-end,P99 (ms),0.9762,2.3734
+CUDA memory,Peak allocated (MiB),17.24,17.24
+CUDA memory,Peak reserved (MiB),22.00,22.00
+Process memory,RSS (MiB),558.80,Unavailable
